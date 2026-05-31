@@ -546,6 +546,7 @@ def pick_random(filtered):
 
 
 def home_page(activities):
+    st.caption("Build version: shiny-ui-2026-05-31")
     total = len(activities)
     subjects = sorted(set(a["subject"] for a in activities), key=lambda s: SUBJECTS.index(s) if s in SUBJECTS else 99)
     grade_bands = [g for g in GRADE_BANDS if any(a["grade_band"] == g for a in activities)]
