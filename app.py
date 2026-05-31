@@ -33,7 +33,210 @@ ICONS = {
 }
 
 st.set_page_config(page_title="Learning Bridge Lab", page_icon="🎒", layout="wide")
+def inject_css():
+    st.markdown(
+        """
+        <style>
+        .stApp {
+          background:
+            radial-gradient(circle at 12% 16%, rgba(255,255,255,.95) 0 0.9rem, transparent 1rem),
+            radial-gradient(circle at 84% 12%, rgba(255,255,255,.88) 0 1.2rem, transparent 1.3rem),
+            linear-gradient(135deg,#dff4ff 0%, #eef1ff 44%, #f7ecff 100%) !important;
+          background-attachment: fixed;
+        }
 
+        .block-container {
+          padding-top: .9rem;
+          max-width: 1280px;
+        }
+
+        [data-testid="stHeader"] {
+          background: rgba(255,255,255,0);
+        }
+
+        .hero {
+          position: relative;
+          overflow: hidden;
+          background: linear-gradient(135deg,rgba(255,255,255,.98),rgba(244,249,255,.96));
+          border-radius: 34px;
+          padding: 1.45rem 1.65rem;
+          box-shadow: 0 22px 55px rgba(50,70,120,.13);
+          border: 1px solid rgba(191,219,254,.9);
+          margin-bottom: 1rem;
+        }
+
+        .hero-title {
+          font-size: clamp(2rem,4.5vw,4.4rem);
+          font-weight: 950;
+          letter-spacing: -.055em;
+          color: #172033;
+          margin: 0;
+          line-height: .95;
+        }
+
+        .hero-sub {
+          color: #5b6475;
+          margin: .65rem 0 0 0;
+          font-size: 1.22rem;
+          line-height: 1.55;
+          max-width: 760px;
+        }
+
+        .hero-kicker {
+          display: inline-flex;
+          gap: .45rem;
+          align-items: center;
+          background: #eef2ff;
+          color: #3730a3;
+          border: 1px solid #c7d2fe;
+          padding: .45rem .8rem;
+          border-radius: 999px;
+          font-weight: 900;
+          margin-bottom: .75rem;
+        }
+
+        .home-card, .question-card, .work-card, .target-card, .nav-card {
+          background: rgba(255,255,255,.96);
+          border: 1px solid rgba(219,234,254,.95);
+          box-shadow: 0 14px 34px rgba(15,23,42,.07);
+        }
+
+        .home-card {
+          border-radius: 28px;
+          padding: 1.2rem 1.25rem;
+          min-height: 170px;
+        }
+
+        .home-icon {
+          width: 62px;
+          height: 62px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 22px;
+          font-size: 2rem;
+          margin-bottom: .7rem;
+          background: linear-gradient(135deg,#dbeafe,#f5d0fe);
+        }
+
+        .home-card h3 {
+          font-size: 1.45rem;
+          margin: .2rem 0 .45rem;
+          color: #172033;
+          letter-spacing: -.02em;
+        }
+
+        .home-card p, .home-card li {
+          font-size: 1.08rem;
+          line-height: 1.55;
+          color: #475569;
+        }
+
+        .grade-pill {
+          border-radius: 24px;
+          padding: 1rem;
+          background: rgba(255,255,255,.92);
+          border: 2px solid #dbeafe;
+          box-shadow: 0 8px 22px rgba(15,23,42,.05);
+        }
+
+        .grade-pill b {
+          display: block;
+          font-size: 1.15rem;
+          color: #172033;
+        }
+
+        .grade-pill span {
+          font-size: .98rem;
+          color: #64748b;
+        }
+
+        .showcase {
+          background: linear-gradient(135deg,#ffffff,#f8fbff);
+          border-radius: 30px;
+          padding: 1.25rem;
+          border: 1px solid #dbeafe;
+          box-shadow: 0 16px 42px rgba(15,23,42,.08);
+          margin: 1rem 0;
+        }
+
+        .showcase-title {
+          font-size: 1.7rem;
+          font-weight: 950;
+          color: #172033;
+          margin: 0 0 .6rem;
+        }
+
+        .teacher-note {
+          font-size: 1.12rem;
+          line-height: 1.65;
+          color: #334155;
+        }
+
+        .question-card {
+          border-radius: 28px;
+          padding: 1.12rem 1.35rem;
+          margin-bottom: 1rem;
+        }
+
+        .question-title {
+          font-size: clamp(1.35rem,1.75vw,1.9rem);
+          font-weight: 850;
+          color: #172033;
+          margin: 0 0 .55rem 0;
+          letter-spacing: -.025em;
+          line-height: 1.12;
+        }
+
+        .question-text {
+          font-size: clamp(1.03rem,1.18vw,1.18rem);
+          line-height: 1.42;
+          color: #111827;
+          margin-top: .72rem;
+          font-weight: 520;
+        }
+
+        .badge {
+          display: inline-flex;
+          align-items: center;
+          gap: .34rem;
+          padding: .32rem .66rem;
+          border-radius: 999px;
+          border: 1px solid #bfdbfe;
+          background: #eff6ff;
+          color: #1e3a8a;
+          font-size: .84rem;
+          font-weight: 850;
+          margin: .14rem .2rem .14rem 0;
+        }
+
+        .badge.subject {
+          color: white;
+          border-color: transparent;
+        }
+
+        div[data-testid="stTextArea"] label,
+        div[data-testid="stTextInput"] label {
+          font-size: 1.45rem !important;
+          font-weight: 900 !important;
+          color: #172033 !important;
+        }
+
+        div[data-testid="stTextArea"] textarea,
+        div[data-testid="stTextInput"] input {
+          border-radius: 20px !important;
+          font-size: 1.35rem !important;
+          line-height: 1.5 !important;
+          min-height: 5rem !important;
+          padding: 1rem 1.1rem !important;
+          color: #111827 !important;
+          background: #ffffff !important;
+          border: 2px solid #c7d2fe !important;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
 st.markdown(
     """
 <style>
@@ -592,18 +795,26 @@ def home_page(activities):
         </div>
         """, unsafe_allow_html=True)
 
-    st.markdown("<div class='grade-strip'>", unsafe_allow_html=True)
+    cols = st.columns(4)
+
     grade_notes = {
         "Kindergarten": "picture-first, no writing, simple choices",
         "Grades 2-3": "short texts, early explanations, skill fluency",
         "Grades 4-5": "multi-step reasoning, evidence, richer reading",
         "Grade 6": "deeper analysis, argument, data, and independence",
     }
-    cols = st.columns(4)
+
     for i, grade in enumerate(grade_bands[:4]):
         with cols[i]:
-            st.markdown(f"<div class='grade-pill'><b>{esc(grade)}</b><span>{esc(grade_notes.get(grade,''))}</span></div>", unsafe_allow_html=True)
-    st.markdown("</div>", unsafe_allow_html=True)
+            st.markdown(
+                f"""
+                <div class='grade-pill'>
+                    <b>{esc(grade)}</b>
+                    <span>{esc(grade_notes.get(grade, ""))}</span>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
 
     st.markdown(
         f"""
@@ -651,6 +862,7 @@ def dashboard():
 
 
 def main():
+    inject_css()
     init_db()
     activities = load_activities()
 
