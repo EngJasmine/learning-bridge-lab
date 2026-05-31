@@ -1,0 +1,25 @@
+How to run Learning Bridge Lab in PyCharm
+
+1. Extract this ZIP.
+2. Open the extracted learning_bridge_lab folder in PyCharm.
+3. Open PyCharm Terminal at the bottom.
+4. Run the commands below.
+
+Windows PowerShell:
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+python -m streamlit run app.py
+
+Windows CMD:
+python -m venv .venv
+.venv\Scripts\activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+python -m streamlit run app.py
+
+Notes:
+- The ZIP intentionally does not include .venv.
+- The ZIP intentionally does not include a database file.
+- The app creates learning_bridge_lab_progress_v3_clean.db automatically when it runs.

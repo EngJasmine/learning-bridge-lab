@@ -1,0 +1,2925 @@
+[
+  {
+    "id": "k_math_1",
+    "grade_band": "Kindergarten",
+    "subject": "Math",
+    "skill": "Counting and cardinality",
+    "title": "Count the Fireflies",
+    "activity_type": "choice",
+    "prompt": "How many fireflies are glowing?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "6",
+    "visual": {
+      "type": "objects",
+      "emoji": "✨",
+      "count": 6
+    },
+    "learning_target": "I can count objects one by one.",
+    "success": "Touch each object as you count."
+  },
+  {
+    "id": "k_math_2",
+    "grade_band": "Kindergarten",
+    "subject": "Math",
+    "skill": "Compare numbers",
+    "title": "Which Jar Has More?",
+    "activity_type": "choice",
+    "prompt": "Which jar has more apples?",
+    "choices": [
+      "Jar A",
+      "Jar B",
+      "They are the same"
+    ],
+    "answer": "Jar B",
+    "visual": {
+      "type": "compare_objects",
+      "left": 4,
+      "right": 6,
+      "emoji": "🍎"
+    },
+    "learning_target": "I can compare groups by counting."
+  },
+  {
+    "id": "k_math_3",
+    "grade_band": "Kindergarten",
+    "subject": "Math",
+    "skill": "Shapes",
+    "title": "Shape Detective",
+    "activity_type": "choice",
+    "prompt": "Which shape has 3 sides?",
+    "choices": [
+      "Circle",
+      "Triangle",
+      "Square",
+      "Rectangle"
+    ],
+    "answer": "Triangle",
+    "visual": {
+      "type": "shapes"
+    },
+    "learning_target": "I can name simple shapes."
+  },
+  {
+    "id": "k_math_4",
+    "grade_band": "Kindergarten",
+    "subject": "Math",
+    "skill": "Add within 5",
+    "title": "Pond Friends",
+    "activity_type": "choice",
+    "prompt": "There are 2 frogs on a log. 3 more jump up. How many frogs are on the log now?",
+    "choices": [
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "5",
+    "visual": {
+      "type": "add_objects",
+      "a": 2,
+      "b": 3,
+      "emoji": "🐸"
+    },
+    "learning_target": "I can put groups together and count all."
+  },
+  {
+    "id": "k_read_1",
+    "grade_band": "Kindergarten",
+    "subject": "Reading",
+    "skill": "Letter sounds",
+    "title": "Beginning Sound Garden",
+    "activity_type": "passage",
+    "passage": "A sun is yellow. A seal swims. A sock is soft.",
+    "questions": [
+      {
+        "prompt": "Which picture starts with /s/?",
+        "choices": [
+          "sun",
+          "dog",
+          "moon"
+        ],
+        "answer": "sun",
+        "evidence": ""
+      },
+      {
+        "prompt": "Which word starts like seal?",
+        "choices": [
+          "sock",
+          "cat",
+          "bug"
+        ],
+        "answer": "sock",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can hear the first sound in a word."
+  },
+  {
+    "id": "k_read_2",
+    "grade_band": "Kindergarten",
+    "subject": "Reading",
+    "skill": "Sight words",
+    "title": "I See It",
+    "activity_type": "passage",
+    "passage": "I see a red bird. I see a blue fish.",
+    "questions": [
+      {
+        "prompt": "Which word did you read?",
+        "choices": [
+          "see",
+          "jump",
+          "little"
+        ],
+        "answer": "see",
+        "evidence": ""
+      },
+      {
+        "prompt": "What color was the bird?",
+        "choices": [
+          "red",
+          "green",
+          "black"
+        ],
+        "answer": "red",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can read a simple sentence."
+  },
+  {
+    "id": "k_read_3",
+    "grade_band": "Kindergarten",
+    "subject": "Reading",
+    "skill": "Story sequence",
+    "title": "First, Next, Last",
+    "activity_type": "passage",
+    "passage": "Mia plants a seed. The seed gets water. A tiny green sprout grows.",
+    "questions": [
+      {
+        "prompt": "What happens first?",
+        "choices": [
+          "Mia plants a seed.",
+          "The sprout grows.",
+          "The dog runs."
+        ],
+        "answer": "Mia plants a seed.",
+        "evidence": ""
+      },
+      {
+        "prompt": "What happens last?",
+        "choices": [
+          "A tiny sprout grows.",
+          "Mia plants a seed.",
+          "It snows."
+        ],
+        "answer": "A tiny sprout grows.",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can tell what happens first and last."
+  },
+  {
+    "id": "k_read_4",
+    "grade_band": "Kindergarten",
+    "subject": "Reading",
+    "skill": "Picture clues",
+    "title": "Find the Detail",
+    "activity_type": "passage",
+    "passage": "Tom has a big hat. The hat has a star. Tom smiles.",
+    "questions": [
+      {
+        "prompt": "What is on the hat?",
+        "choices": [
+          "a star",
+          "a moon",
+          "a fish"
+        ],
+        "answer": "a star",
+        "evidence": ""
+      },
+      {
+        "prompt": "How does Tom feel?",
+        "choices": [
+          "happy",
+          "sleepy",
+          "mad"
+        ],
+        "answer": "happy",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can use details to answer questions."
+  },
+  {
+    "id": "k_sci_1",
+    "grade_band": "Kindergarten",
+    "subject": "Science Reading",
+    "skill": "Living and nonliving",
+    "title": "Is It Living?",
+    "activity_type": "passage",
+    "passage": "A rabbit needs food and water. A rock does not eat or drink. A plant needs sunlight and water.",
+    "questions": [
+      {
+        "prompt": "Which thing is living?",
+        "choices": [
+          "rabbit",
+          "chair",
+          "rock"
+        ],
+        "answer": "rabbit",
+        "evidence": ""
+      },
+      {
+        "prompt": "What does a plant need?",
+        "choices": [
+          "sunlight and water",
+          "shoes",
+          "a backpack"
+        ],
+        "answer": "sunlight and water",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can tell living and nonliving things apart."
+  },
+  {
+    "id": "k_sci_2",
+    "grade_band": "Kindergarten",
+    "subject": "Science Reading",
+    "skill": "Weather",
+    "title": "Weather Watch",
+    "activity_type": "passage",
+    "passage": "Today the sky is gray. Rain falls on the sidewalk. Sam wears boots and carries an umbrella.",
+    "questions": [
+      {
+        "prompt": "What is the weather?",
+        "choices": [
+          "rainy",
+          "snowy",
+          "sunny"
+        ],
+        "answer": "rainy",
+        "evidence": ""
+      },
+      {
+        "prompt": "What helps Sam stay dry?",
+        "choices": [
+          "umbrella",
+          "sandwich",
+          "crayon"
+        ],
+        "answer": "umbrella",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can observe weather."
+  },
+  {
+    "id": "k_sci_3",
+    "grade_band": "Kindergarten",
+    "subject": "Science Reading",
+    "skill": "Plant needs",
+    "title": "The Bean Seed",
+    "activity_type": "passage",
+    "passage": "A bean seed sits in soil. It gets water and light. Soon a small stem grows up.",
+    "questions": [
+      {
+        "prompt": "What does the seed need?",
+        "choices": [
+          "water and light",
+          "ice cream",
+          "a toy"
+        ],
+        "answer": "water and light",
+        "evidence": ""
+      },
+      {
+        "prompt": "What grows up?",
+        "choices": [
+          "a stem",
+          "a shoe",
+          "a cloud"
+        ],
+        "answer": "a stem",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can name what plants need."
+  },
+  {
+    "id": "k_sci_4",
+    "grade_band": "Kindergarten",
+    "subject": "Science Reading",
+    "skill": "Push and pull",
+    "title": "The Wagon",
+    "activity_type": "passage",
+    "passage": "Leo pulls the wagon. Then he pushes the wagon up the ramp. The wagon moves.",
+    "questions": [
+      {
+        "prompt": "What does Leo pull?",
+        "choices": [
+          "wagon",
+          "kite",
+          "book"
+        ],
+        "answer": "wagon",
+        "evidence": ""
+      },
+      {
+        "prompt": "Push and pull are ways to make things _____.",
+        "choices": [
+          "move",
+          "sleep",
+          "sing"
+        ],
+        "answer": "move",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can describe pushes and pulls."
+  },
+  {
+    "id": "k_ss_1",
+    "grade_band": "Kindergarten",
+    "subject": "Social Studies",
+    "skill": "Community helpers",
+    "title": "Helper Hats",
+    "activity_type": "passage",
+    "passage": "A firefighter helps in emergencies. A doctor helps sick people. A teacher helps children learn.",
+    "questions": [
+      {
+        "prompt": "Who helps sick people?",
+        "choices": [
+          "doctor",
+          "chef",
+          "pilot"
+        ],
+        "answer": "doctor",
+        "evidence": ""
+      },
+      {
+        "prompt": "Who helps children learn?",
+        "choices": [
+          "teacher",
+          "mail carrier",
+          "artist"
+        ],
+        "answer": "teacher",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can name community helpers."
+  },
+  {
+    "id": "k_ss_2",
+    "grade_band": "Kindergarten",
+    "subject": "Social Studies",
+    "skill": "Rules",
+    "title": "Safe Classroom Rules",
+    "activity_type": "passage",
+    "passage": "We walk inside. We share materials. We listen when a friend is talking.",
+    "questions": [
+      {
+        "prompt": "Which is a classroom rule?",
+        "choices": [
+          "walk inside",
+          "throw books",
+          "shout over friends"
+        ],
+        "answer": "walk inside",
+        "evidence": ""
+      },
+      {
+        "prompt": "Why do we have rules?",
+        "choices": [
+          "to stay safe and kind",
+          "to hide toys",
+          "to make rain"
+        ],
+        "answer": "to stay safe and kind",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can explain why rules help."
+  },
+  {
+    "id": "k_ss_3",
+    "grade_band": "Kindergarten",
+    "subject": "Social Studies",
+    "skill": "Maps",
+    "title": "Map of the Room",
+    "activity_type": "passage",
+    "passage": "A map can show where things are. The rug is by the shelf. The door is near the cubbies.",
+    "questions": [
+      {
+        "prompt": "What can a map show?",
+        "choices": [
+          "where things are",
+          "what lunch tastes like",
+          "how loud music is"
+        ],
+        "answer": "where things are",
+        "evidence": ""
+      },
+      {
+        "prompt": "Where is the rug?",
+        "choices": [
+          "by the shelf",
+          "in the sky",
+          "under the bus"
+        ],
+        "answer": "by the shelf",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can use a simple map clue."
+  },
+  {
+    "id": "k_ss_4",
+    "grade_band": "Kindergarten",
+    "subject": "Social Studies",
+    "skill": "Needs and wants",
+    "title": "Need or Want?",
+    "activity_type": "passage",
+    "passage": "Nora needs food, water, and a safe place to sleep. Nora wants a red balloon and a toy boat.",
+    "questions": [
+      {
+        "prompt": "Which is a need?",
+        "choices": [
+          "water",
+          "balloon",
+          "toy boat"
+        ],
+        "answer": "water",
+        "evidence": ""
+      },
+      {
+        "prompt": "Which is a want?",
+        "choices": [
+          "red balloon",
+          "food",
+          "safe place"
+        ],
+        "answer": "red balloon",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can tell needs and wants apart."
+  },
+  {
+    "id": "k_char_1",
+    "grade_band": "Kindergarten",
+    "subject": "Character",
+    "skill": "Kindness",
+    "title": "The Crayon Choice",
+    "activity_type": "scenario",
+    "prompt": "A friend cannot find a blue crayon. What is the kind choice?",
+    "choices": [
+      "Share your blue crayon.",
+      "Hide all the crayons.",
+      "Laugh at your friend."
+    ],
+    "answer": "Share your blue crayon.",
+    "learning_target": "I can choose a kind action."
+  },
+  {
+    "id": "k_char_2",
+    "grade_band": "Kindergarten",
+    "subject": "Character",
+    "skill": "Honesty",
+    "title": "The Broken Block Tower",
+    "activity_type": "scenario",
+    "prompt": "You bumped the block tower by accident. What should you do?",
+    "choices": [
+      "Tell the truth and help fix it.",
+      "Run away.",
+      "Blame a classmate."
+    ],
+    "answer": "Tell the truth and help fix it."
+  },
+  {
+    "id": "k_char_3",
+    "grade_band": "Kindergarten",
+    "subject": "Character",
+    "skill": "Patience",
+    "title": "Waiting for a Turn",
+    "activity_type": "scenario",
+    "prompt": "You want the swing, but another child is using it. What should you do?",
+    "choices": [
+      "Wait or ask for a turn kindly.",
+      "Push the child.",
+      "Cry and take it."
+    ],
+    "answer": "Wait or ask for a turn kindly."
+  },
+  {
+    "id": "k_char_4",
+    "grade_band": "Kindergarten",
+    "subject": "Character",
+    "skill": "Responsibility",
+    "title": "Clean-Up Bell",
+    "activity_type": "scenario",
+    "prompt": "The clean-up bell rings. What helps the class?",
+    "choices": [
+      "Put materials away.",
+      "Dump more toys out.",
+      "Hide under the table."
+    ],
+    "answer": "Put materials away."
+  },
+  {
+    "id": "g23_math_1",
+    "grade_band": "Grades 2-3",
+    "subject": "Math",
+    "skill": "Multi-step addition",
+    "title": "Market Math Mystery",
+    "activity_type": "choice",
+    "prompt": "A class sells 128 muffins in the morning and 96 muffins after lunch. They bake 75 more. How many muffins did they have to sell in all?",
+    "choices": [
+      "299",
+      "224",
+      "203",
+      "309"
+    ],
+    "answer": "299",
+    "visual": {
+      "type": "bar_model",
+      "values": [
+        128,
+        96,
+        75
+      ]
+    },
+    "model_it": "Add the three parts: 128 + 96 + 75."
+  },
+  {
+    "id": "g23_math_2",
+    "grade_band": "Grades 2-3",
+    "subject": "Math",
+    "skill": "Fractions as equal parts",
+    "title": "Garden Flag Fractions",
+    "activity_type": "choice",
+    "prompt": "A flag is split into 8 equal stripes. 3 stripes are green and 5 are yellow. What fraction is green?",
+    "choices": [
+      "3/8",
+      "5/8",
+      "3/5",
+      "8/3"
+    ],
+    "answer": "3/8",
+    "visual": {
+      "type": "fraction_bar",
+      "num": 3,
+      "den": 8
+    },
+    "model_it": "The denominator is the number of equal parts. The numerator is the green parts."
+  },
+  {
+    "id": "g23_math_3",
+    "grade_band": "Grades 2-3",
+    "subject": "Math",
+    "skill": "Area arrays",
+    "title": "Tile Patio Challenge",
+    "activity_type": "choice",
+    "prompt": "A patio has 6 rows of tiles with 7 tiles in each row. How many tiles are there?",
+    "choices": [
+      "42",
+      "36",
+      "13",
+      "49"
+    ],
+    "answer": "42",
+    "visual": {
+      "type": "array",
+      "rows": 6,
+      "cols": 7
+    },
+    "model_it": "Use rows × columns: 6 × 7."
+  },
+  {
+    "id": "g23_math_4",
+    "grade_band": "Grades 2-3",
+    "subject": "Math",
+    "skill": "Data and comparison",
+    "title": "Rain Gauge Data",
+    "activity_type": "choice",
+    "prompt": "Rain fell 3 inches on Monday, 1 inch on Tuesday, and 4 inches on Wednesday. How many more inches fell on Wednesday than Tuesday?",
+    "choices": [
+      "3 inches",
+      "4 inches",
+      "5 inches",
+      "2 inches"
+    ],
+    "answer": "3 inches",
+    "visual": {
+      "type": "bar_chart",
+      "labels": [
+        "Mon",
+        "Tue",
+        "Wed"
+      ],
+      "values": [
+        3,
+        1,
+        4
+      ]
+    },
+    "model_it": "Compare Wednesday and Tuesday: 4 - 1."
+  },
+  {
+    "id": "g23_read_1",
+    "grade_band": "Grades 2-3",
+    "subject": "Reading",
+    "skill": "Character traits",
+    "title": "The Library Helper",
+    "activity_type": "passage",
+    "passage": "Ari noticed that the new student, Ben, stood alone near the library shelf. Everyone else was choosing books for the reading picnic. Ari wanted to grab the dragon book before someone else took it, but he stopped. He asked Ben what kinds of stories he liked. Together they found a mystery book and a funny animal book. Later, Ben sat with Ari and two other classmates. Ari did not get the dragon book, but he felt proud when Ben smiled during the picnic.",
+    "questions": [
+      {
+        "prompt": "Which word best describes Ari?",
+        "choices": [
+          "thoughtful",
+          "lazy",
+          "jealous",
+          "careless"
+        ],
+        "answer": "thoughtful",
+        "evidence": "Ari stops to help Ben."
+      },
+      {
+        "prompt": "Why does Ari feel proud?",
+        "choices": [
+          "He helped Ben feel included.",
+          "He won a race.",
+          "He hid the dragon book.",
+          "He finished lunch first."
+        ],
+        "answer": "He helped Ben feel included.",
+        "evidence": ""
+      },
+      {
+        "prompt": "What lesson does the story teach?",
+        "choices": [
+          "Kindness can matter more than getting what you want.",
+          "Books should stay on shelves.",
+          "New students do not like mysteries.",
+          "Picnics are only for dragons."
+        ],
+        "answer": "Kindness can matter more than getting what you want.",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can describe a character using evidence."
+  },
+  {
+    "id": "g23_read_2",
+    "grade_band": "Grades 2-3",
+    "subject": "Reading",
+    "skill": "Main idea",
+    "title": "Why Bees Visit Flowers",
+    "activity_type": "passage",
+    "passage": "Bees fly from flower to flower looking for nectar. Nectar is a sweet liquid that gives bees energy. As bees move, yellow pollen sticks to their bodies. Some pollen rubs off on the next flower. This helps many plants make seeds and fruit. Bees get food, and plants get help. That is why bees and flowers are important to each other.",
+    "questions": [
+      {
+        "prompt": "What is the main idea?",
+        "choices": [
+          "Bees and flowers help each other.",
+          "All bees live in trees.",
+          "Flowers do not need animals.",
+          "Nectar is always blue."
+        ],
+        "answer": "Bees and flowers help each other.",
+        "evidence": ""
+      },
+      {
+        "prompt": "What do bees get from flowers?",
+        "choices": [
+          "nectar",
+          "pencils",
+          "seeds only",
+          "sand"
+        ],
+        "answer": "nectar",
+        "evidence": ""
+      },
+      {
+        "prompt": "How do bees help plants?",
+        "choices": [
+          "They move pollen.",
+          "They eat all leaves.",
+          "They make rain.",
+          "They build fences."
+        ],
+        "answer": "They move pollen.",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can find the main idea and key details."
+  },
+  {
+    "id": "g23_read_3",
+    "grade_band": "Grades 2-3",
+    "subject": "Reading",
+    "skill": "Inference",
+    "title": "The Missing Mittens",
+    "activity_type": "passage",
+    "passage": "Snow covered the playground when the class came inside. Mila reached into her coat sleeve, but one mitten was gone. She looked under the bench and inside her backpack. Then she saw tiny wet paw prints near the classroom pet cage. Inside the cage, the guinea pig was curled on something red and fuzzy.",
+    "questions": [
+      {
+        "prompt": "Where is Mila’s mitten probably?",
+        "choices": [
+          "in the guinea pig cage",
+          "on the roof",
+          "in the lunchroom",
+          "at home"
+        ],
+        "answer": "in the guinea pig cage",
+        "evidence": ""
+      },
+      {
+        "prompt": "Which clue supports your answer?",
+        "choices": [
+          "wet paw prints led to the cage",
+          "Mila has a backpack",
+          "snow covered the playground",
+          "the bench was near the door"
+        ],
+        "answer": "wet paw prints led to the cage",
+        "evidence": ""
+      },
+      {
+        "prompt": "What does curled mean here?",
+        "choices": [
+          "resting in a round shape",
+          "running quickly",
+          "eating loudly",
+          "jumping high"
+        ],
+        "answer": "resting in a round shape",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can use clues to make an inference."
+  },
+  {
+    "id": "g23_read_4",
+    "grade_band": "Grades 2-3",
+    "subject": "Reading",
+    "skill": "Compare texts",
+    "title": "Two Ways to Help a Park",
+    "activity_type": "passage",
+    "passage": "Text A: Families picked up litter at Oak Park on Saturday. They filled twelve bags and found a lost soccer ball. Text B: Students planted native flowers at Oak Park. The flowers will give butterflies and bees a place to find food.",
+    "questions": [
+      {
+        "prompt": "How are both texts alike?",
+        "choices": [
+          "Both tell about people helping a park.",
+          "Both are about cooking.",
+          "Both happen in winter.",
+          "Both are about a zoo."
+        ],
+        "answer": "Both tell about people helping a park.",
+        "evidence": ""
+      },
+      {
+        "prompt": "How are the actions different?",
+        "choices": [
+          "One removes litter; one adds plants.",
+          "One uses books; one uses bikes.",
+          "Both actions are the same.",
+          "Neither action helps animals."
+        ],
+        "answer": "One removes litter; one adds plants.",
+        "evidence": ""
+      },
+      {
+        "prompt": "Which action might help pollinators most?",
+        "choices": [
+          "planting native flowers",
+          "finding a soccer ball",
+          "filling trash bags only",
+          "counting benches"
+        ],
+        "answer": "planting native flowers",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can compare ideas in two short texts."
+  },
+  {
+    "id": "g23_sci_1",
+    "grade_band": "Grades 2-3",
+    "subject": "Science Reading",
+    "skill": "Life cycles",
+    "title": "From Egg to Dragonfly",
+    "activity_type": "passage",
+    "passage": "A dragonfly begins life as an egg near water. A young dragonfly, called a nymph, lives underwater and eats tiny animals. After it grows, the nymph climbs out of the water. Its body changes, and an adult dragonfly flies away. Adult dragonflies lay eggs, and the cycle begins again.",
+    "questions": [
+      {
+        "prompt": "Where does the nymph live?",
+        "choices": [
+          "underwater",
+          "inside a flower",
+          "on the moon",
+          "in a nest"
+        ],
+        "answer": "underwater",
+        "evidence": ""
+      },
+      {
+        "prompt": "What happens after the nymph grows?",
+        "choices": [
+          "It climbs out of the water and changes.",
+          "It becomes a seed.",
+          "It makes a snowflake.",
+          "It turns into a rock."
+        ],
+        "answer": "It climbs out of the water and changes.",
+        "evidence": ""
+      },
+      {
+        "prompt": "Why is this called a cycle?",
+        "choices": [
+          "The steps repeat.",
+          "The dragonfly counts.",
+          "Water disappears.",
+          "The egg is square."
+        ],
+        "answer": "The steps repeat.",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can explain a life cycle."
+  },
+  {
+    "id": "g23_sci_2",
+    "grade_band": "Grades 2-3",
+    "subject": "Science Reading",
+    "skill": "Habitats",
+    "title": "Desert Survival",
+    "activity_type": "passage",
+    "passage": "A desert is dry, but many living things survive there. Cactus plants store water in thick stems. Some animals sleep during the hot day and search for food at night. Lizards may have light-colored skin that helps them stay cooler. These traits help living things meet their needs in a dry habitat.",
+    "questions": [
+      {
+        "prompt": "Why do cactus plants have thick stems?",
+        "choices": [
+          "to store water",
+          "to catch fish",
+          "to make snow",
+          "to fly"
+        ],
+        "answer": "to store water",
+        "evidence": ""
+      },
+      {
+        "prompt": "Why might animals search for food at night?",
+        "choices": [
+          "It is cooler than during the day.",
+          "The sun is brighter.",
+          "There is more homework.",
+          "Plants disappear."
+        ],
+        "answer": "It is cooler than during the day.",
+        "evidence": ""
+      },
+      {
+        "prompt": "What is the passage mostly about?",
+        "choices": [
+          "how living things survive in deserts",
+          "how to build a house",
+          "why deserts are oceans",
+          "how lizards play games"
+        ],
+        "answer": "how living things survive in deserts",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can connect traits to a habitat."
+  },
+  {
+    "id": "g23_sci_3",
+    "grade_band": "Grades 2-3",
+    "subject": "Science Reading",
+    "skill": "Matter",
+    "title": "Solids and Liquids Lab",
+    "activity_type": "passage",
+    "passage": "A solid keeps its shape unless something changes it. A liquid takes the shape of its container. In class, students put a cube, a marble, and water into different cups. The cube and marble kept their shapes. The water spread out to match each cup.",
+    "questions": [
+      {
+        "prompt": "Which object is a liquid?",
+        "choices": [
+          "water",
+          "marble",
+          "cube",
+          "desk"
+        ],
+        "answer": "water",
+        "evidence": ""
+      },
+      {
+        "prompt": "What does a liquid do?",
+        "choices": [
+          "takes the shape of its container",
+          "always stays square",
+          "floats in space",
+          "never moves"
+        ],
+        "answer": "takes the shape of its container",
+        "evidence": ""
+      },
+      {
+        "prompt": "Which pair are solids?",
+        "choices": [
+          "cube and marble",
+          "water and juice",
+          "rain and water",
+          "cup and water only"
+        ],
+        "answer": "cube and marble",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can compare solids and liquids."
+  },
+  {
+    "id": "g23_sci_4",
+    "grade_band": "Grades 2-3",
+    "subject": "Science Reading",
+    "skill": "Earth materials",
+    "title": "Rocks Tell Clues",
+    "activity_type": "passage",
+    "passage": "Rocks can have different colors, textures, and patterns. Some rocks are smooth because water has rubbed them for a long time. Some rocks have tiny crystals that sparkle. Scientists observe rocks closely to learn where they may have formed and how they changed.",
+    "questions": [
+      {
+        "prompt": "What can make a rock smooth over time?",
+        "choices": [
+          "water rubbing it",
+          "a pencil writing on it",
+          "a bird singing",
+          "a cloud hiding it"
+        ],
+        "answer": "water rubbing it",
+        "evidence": ""
+      },
+      {
+        "prompt": "Why do scientists observe rocks?",
+        "choices": [
+          "to learn clues about how they formed and changed",
+          "to teach rocks to talk",
+          "to find lunch",
+          "to make every rock the same"
+        ],
+        "answer": "to learn clues about how they formed and changed",
+        "evidence": ""
+      },
+      {
+        "prompt": "What does texture mean?",
+        "choices": [
+          "how something feels",
+          "how loud it is",
+          "how fast it runs",
+          "how sweet it tastes"
+        ],
+        "answer": "how something feels",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can use properties to describe rocks."
+  },
+  {
+    "id": "g23_write_1",
+    "grade_band": "Grades 2-3",
+    "subject": "Writing",
+    "skill": "Opinion paragraph",
+    "title": "Best Recess Game",
+    "activity_type": "writing",
+    "prompt": "Write a paragraph explaining which recess game is best and why.",
+    "organizer": [
+      "Opinion",
+      "Reason 1",
+      "Reason 2",
+      "Closing"
+    ],
+    "checklist": [
+      "I stated my opinion.",
+      "I gave at least two reasons.",
+      "I used capitals and punctuation."
+    ]
+  },
+  {
+    "id": "g23_write_2",
+    "grade_band": "Grades 2-3",
+    "subject": "Writing",
+    "skill": "Informative paragraph",
+    "title": "How to Care for a Class Plant",
+    "activity_type": "writing",
+    "prompt": "Explain how to care for a class plant using steps and details.",
+    "organizer": [
+      "Topic sentence",
+      "Step 1",
+      "Step 2",
+      "Step 3",
+      "Closing"
+    ],
+    "checklist": [
+      "My steps are in order.",
+      "I used clear verbs.",
+      "I explained why the plant needs care."
+    ]
+  },
+  {
+    "id": "g23_write_3",
+    "grade_band": "Grades 2-3",
+    "subject": "Writing",
+    "skill": "Narrative",
+    "title": "The Surprise Sound",
+    "activity_type": "writing",
+    "prompt": "Write a story about a character who hears a surprising sound at school.",
+    "organizer": [
+      "Character",
+      "Setting",
+      "Problem",
+      "Action",
+      "Ending"
+    ],
+    "checklist": [
+      "My story has a beginning, middle, and end.",
+      "I included feelings.",
+      "I used details that help readers picture the scene."
+    ]
+  },
+  {
+    "id": "g23_write_4",
+    "grade_band": "Grades 2-3",
+    "subject": "Writing",
+    "skill": "Friendly letter",
+    "title": "Letter to a Community Helper",
+    "activity_type": "writing",
+    "prompt": "Write a friendly letter thanking a community helper for their work.",
+    "organizer": [
+      "Greeting",
+      "Thank-you sentence",
+      "Detail about their work",
+      "Question",
+      "Closing"
+    ],
+    "checklist": [
+      "I used a greeting and closing.",
+      "I explained why I am thankful.",
+      "I checked punctuation."
+    ]
+  },
+  {
+    "id": "g23_ss_1",
+    "grade_band": "Grades 2-3",
+    "subject": "Social Studies",
+    "skill": "Maps and symbols",
+    "title": "Map Symbols at the Zoo",
+    "activity_type": "passage",
+    "passage": "A map uses symbols to show places. A fork symbol can show food. A blue square can show restrooms. A dotted line can show a walking path. When visitors understand symbols, they can find places faster.",
+    "questions": [
+      {
+        "prompt": "What does a symbol do on a map?",
+        "choices": [
+          "stands for a place or thing",
+          "makes food hot",
+          "counts animals",
+          "locks doors"
+        ],
+        "answer": "stands for a place or thing",
+        "evidence": ""
+      },
+      {
+        "prompt": "Which symbol might show food?",
+        "choices": [
+          "fork",
+          "snowflake",
+          "star only",
+          "shoe"
+        ],
+        "answer": "fork",
+        "evidence": ""
+      },
+      {
+        "prompt": "Why are symbols helpful?",
+        "choices": [
+          "They help people find places faster.",
+          "They make maps heavier.",
+          "They replace all words forever.",
+          "They make animals sleep."
+        ],
+        "answer": "They help people find places faster.",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can use map symbols."
+  },
+  {
+    "id": "g23_ss_2",
+    "grade_band": "Grades 2-3",
+    "subject": "Social Studies",
+    "skill": "Goods and services",
+    "title": "Bakery Choices",
+    "activity_type": "passage",
+    "passage": "A bakery sells bread, muffins, and cookies. These are goods because people can buy and take them home. The baker also decorates a birthday cake for a customer. That work is a service. Communities need both goods and services.",
+    "questions": [
+      {
+        "prompt": "Which is a good?",
+        "choices": [
+          "bread",
+          "decorating a cake",
+          "teaching a class",
+          "fixing a sink"
+        ],
+        "answer": "bread",
+        "evidence": ""
+      },
+      {
+        "prompt": "Which is a service?",
+        "choices": [
+          "decorating a cake",
+          "cookie",
+          "muffin",
+          "loaf of bread"
+        ],
+        "answer": "decorating a cake",
+        "evidence": ""
+      },
+      {
+        "prompt": "What is the passage mostly about?",
+        "choices": [
+          "goods and services",
+          "weather maps",
+          "animal homes",
+          "plant parts"
+        ],
+        "answer": "goods and services",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can tell goods and services apart."
+  },
+  {
+    "id": "g23_ss_3",
+    "grade_band": "Grades 2-3",
+    "subject": "Social Studies",
+    "skill": "Past and present",
+    "title": "Schools Then and Now",
+    "activity_type": "passage",
+    "passage": "Long ago, some schools had one room for many grade levels. Students wrote on slates and often walked to school. Today, many schools have different classrooms, computers, buses, and libraries. Some things changed, but children still learn, read, and work together.",
+    "questions": [
+      {
+        "prompt": "What is one way schools changed?",
+        "choices": [
+          "Many now use computers.",
+          "Students no longer learn.",
+          "All schools have one room.",
+          "Books disappeared."
+        ],
+        "answer": "Many now use computers.",
+        "evidence": ""
+      },
+      {
+        "prompt": "What stayed the same?",
+        "choices": [
+          "Children still learn and read.",
+          "Students always write on slates.",
+          "No one has libraries.",
+          "Everyone walks to school."
+        ],
+        "answer": "Children still learn and read.",
+        "evidence": ""
+      },
+      {
+        "prompt": "What does compare mean?",
+        "choices": [
+          "tell how things are alike and different",
+          "hide the details",
+          "count only books",
+          "draw a map"
+        ],
+        "answer": "tell how things are alike and different",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can compare past and present."
+  },
+  {
+    "id": "g23_ss_4",
+    "grade_band": "Grades 2-3",
+    "subject": "Social Studies",
+    "skill": "Citizenship",
+    "title": "The Playground Vote",
+    "activity_type": "passage",
+    "passage": "The class could choose one new playground item. Students listened to three ideas: a bench, a soccer net, or a garden box. Each student voted once. The teacher counted the votes and announced that the garden box won. Some students were disappointed, but they agreed to help plant it.",
+    "questions": [
+      {
+        "prompt": "Why did students vote?",
+        "choices": [
+          "to make a group decision",
+          "to skip class",
+          "to choose lunch for everyone",
+          "to close the playground"
+        ],
+        "answer": "to make a group decision",
+        "evidence": ""
+      },
+      {
+        "prompt": "What shows good citizenship?",
+        "choices": [
+          "helping even if your choice did not win",
+          "tearing up the ballots",
+          "refusing to listen",
+          "hiding the seeds"
+        ],
+        "answer": "helping even if your choice did not win",
+        "evidence": ""
+      },
+      {
+        "prompt": "What won the vote?",
+        "choices": [
+          "garden box",
+          "soccer net",
+          "bench",
+          "slide"
+        ],
+        "answer": "garden box",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can explain fair decision-making."
+  },
+  {
+    "id": "g23_char_1",
+    "grade_band": "Grades 2-3",
+    "subject": "Character",
+    "skill": "Growth mindset",
+    "title": "The Hard Puzzle",
+    "activity_type": "scenario",
+    "prompt": "Maya says, “I am bad at puzzles.” What is a stronger thought?",
+    "choices": [
+      "I can try a new strategy.",
+      "I should quit forever.",
+      "The puzzle is mean.",
+      "No one should solve it."
+    ],
+    "answer": "I can try a new strategy."
+  },
+  {
+    "id": "g23_char_2",
+    "grade_band": "Grades 2-3",
+    "subject": "Character",
+    "skill": "Respect",
+    "title": "Team Project Voices",
+    "activity_type": "scenario",
+    "prompt": "Two classmates have different ideas for the poster. What should the team do?",
+    "choices": [
+      "Listen to both ideas and combine the best parts.",
+      "Let the loudest person decide.",
+      "Throw away the poster.",
+      "Stop talking to each other."
+    ],
+    "answer": "Listen to both ideas and combine the best parts."
+  },
+  {
+    "id": "g23_char_3",
+    "grade_band": "Grades 2-3",
+    "subject": "Character",
+    "skill": "Responsibility",
+    "title": "Forgotten Homework Folder",
+    "activity_type": "scenario",
+    "prompt": "You forgot your homework folder. What is the responsible next step?",
+    "choices": [
+      "Tell the teacher and make a plan to fix it.",
+      "Pretend it is not yours.",
+      "Blame your friend.",
+      "Hide in line."
+    ],
+    "answer": "Tell the teacher and make a plan to fix it."
+  },
+  {
+    "id": "g23_char_4",
+    "grade_band": "Grades 2-3",
+    "subject": "Character",
+    "skill": "Empathy",
+    "title": "Lunch Table Choice",
+    "activity_type": "scenario",
+    "prompt": "A student is sitting alone at lunch. What shows empathy?",
+    "choices": [
+      "Invite them to sit with you.",
+      "Point and laugh.",
+      "Tell others to ignore them.",
+      "Take their chair."
+    ],
+    "answer": "Invite them to sit with you."
+  },
+  {
+    "id": "g45_math_1",
+    "grade_band": "Grades 4-5",
+    "subject": "Math",
+    "skill": "Fractions and measurement",
+    "title": "Trail-Mix Scaling Challenge",
+    "activity_type": "choice",
+    "prompt": "A hiking club needs 3 3/4 cups of oats for one trail-mix station. They are preparing 6 stations. They already have 18 cups of oats. How many more cups do they need?",
+    "choices": [
+      "4 1/2 cups",
+      "22 1/2 cups",
+      "3 3/4 cups",
+      "1/2 cup"
+    ],
+    "answer": "4 1/2 cups",
+    "visual": {
+      "type": "fraction_equation",
+      "text": "6 × 3 3/4 - 18"
+    },
+    "model_it": "Convert 3 3/4 to 15/4. Six stations need 90/4 = 22 1/2 cups. 22 1/2 - 18 = 4 1/2."
+  },
+  {
+    "id": "g45_math_2",
+    "grade_band": "Grades 4-5",
+    "subject": "Math",
+    "skill": "Volume and constraints",
+    "title": "Aquarium Design",
+    "activity_type": "choice",
+    "prompt": "A rectangular aquarium is 8 in. long, 5 in. wide, and 6 in. high. A decoration takes up 24 cubic inches. How much water can the tank hold around the decoration?",
+    "choices": [
+      "216 cubic inches",
+      "240 cubic inches",
+      "264 cubic inches",
+      "192 cubic inches"
+    ],
+    "answer": "216 cubic inches",
+    "visual": {
+      "type": "prism",
+      "l": 8,
+      "w": 5,
+      "h": 6
+    },
+    "model_it": "Tank volume is 8 × 5 × 6 = 240. Subtract 24 cubic inches for the decoration."
+  },
+  {
+    "id": "g45_math_3",
+    "grade_band": "Grades 4-5",
+    "subject": "Math",
+    "skill": "Line plots with fractions",
+    "title": "Seedling Growth Investigation",
+    "activity_type": "choice",
+    "prompt": "Six seedlings grew these amounts in inches: 1 1/4, 1 3/4, 2, 2, 2 1/2, 3. What is the total growth?",
+    "choices": [
+      "12 1/2 inches",
+      "11 1/2 inches",
+      "10 3/4 inches",
+      "13 inches"
+    ],
+    "answer": "12 1/2 inches",
+    "visual": {
+      "type": "line_plot",
+      "labels": [
+        "1 1/4",
+        "1 3/4",
+        "2",
+        "2 1/2",
+        "3"
+      ],
+      "counts": [
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    "model_it": "Add the measurements: 1 1/4 + 1 3/4 = 3; plus 2 + 2 + 2 1/2 + 3 = 12 1/2."
+  },
+  {
+    "id": "g45_math_4",
+    "grade_band": "Grades 4-5",
+    "subject": "Math",
+    "skill": "Coordinate geometry",
+    "title": "Park Map Perimeter",
+    "activity_type": "choice",
+    "prompt": "A park rectangle has corners at (2,1), (9,1), (9,5), and (2,5). What is the perimeter?",
+    "choices": [
+      "22 units",
+      "28 units",
+      "11 units",
+      "24 units"
+    ],
+    "answer": "22 units",
+    "visual": {
+      "type": "coordinate_rect",
+      "points": [
+        [
+          2,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    "model_it": "Length is 9 - 2 = 7. Width is 5 - 1 = 4. Perimeter is 2(7 + 4) = 22."
+  },
+  {
+    "id": "g45_read_1",
+    "grade_band": "Grades 4-5",
+    "subject": "Reading",
+    "skill": "Theme and evidence",
+    "title": "The Last Lantern",
+    "activity_type": "passage",
+    "passage": "Every autumn, Mei’s family brought paper lanterns to the neighborhood festival. This year a basement leak ruined all but one lantern. Her uncle suggested buying new plastic ones, but Grandmother gently smoothed the wrinkled paper and said, “We can still keep the meaning.” Mei worried that one old lantern would look small beside the stage lights.\n\nBefore dusk, Grandmother told Mei about her first festival after moving to Ohio. She had felt lonely until a stranger recognized the song she was humming. Soon several families were singing together and sharing tea. “Traditions survive because people carry them together,” Grandmother said.\n\nWhen the lantern finally glowed, visitors stopped to listen to Grandmother’s story. Mei realized the lantern mattered not because it was perfect, but because it connected memory to people standing together now.",
+    "questions": [
+      {
+        "prompt": "Which theme is best supported?",
+        "choices": [
+          "Traditions stay meaningful when people carry them together.",
+          "Old objects are always better than new objects.",
+          "Festivals should never change.",
+          "Stage lights are more important than stories."
+        ],
+        "answer": "Traditions stay meaningful when people carry them together.",
+        "evidence": "Grandmother says traditions survive because people carry them together."
+      },
+      {
+        "prompt": "What does the lantern symbolize?",
+        "choices": [
+          "family memory and shared tradition",
+          "a prize",
+          "a broken basement",
+          "a shopping list"
+        ],
+        "answer": "family memory and shared tradition",
+        "evidence": ""
+      },
+      {
+        "prompt": "Why does Mei change her mind?",
+        "choices": [
+          "She sees people value the story behind the lantern.",
+          "She buys plastic lanterns.",
+          "The stage lights turn off.",
+          "Her uncle wins a contest."
+        ],
+        "answer": "She sees people value the story behind the lantern.",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can explain theme using evidence."
+  },
+  {
+    "id": "g45_read_2",
+    "grade_band": "Grades 4-5",
+    "subject": "Reading",
+    "skill": "Author purpose",
+    "title": "Why Wetlands Matter",
+    "activity_type": "passage",
+    "passage": "A wetland is land covered with shallow water for all or part of the year. Although wetlands may look muddy and quiet, they are busy ecosystems. Birds nest in tall grasses, frogs lay eggs in still pools, and insects feed many animals.\n\nWetlands also help people. During heavy rain, wetland plants and soil slow the movement of water, which can reduce flooding. Wetlands act like natural filters too, trapping some dirt and pollution before water reaches streams or lakes.\n\nFor years, many people drained wetlands because they thought the land was useless. Today, communities restore wetlands because scientists understand their value. The author wants readers to see wetlands as living systems that protect both wildlife and people.",
+    "questions": [
+      {
+        "prompt": "What is the author’s main purpose?",
+        "choices": [
+          "to explain why wetlands are valuable",
+          "to tell a fantasy story about frogs",
+          "to persuade readers to drain wetlands",
+          "to compare lakes and deserts"
+        ],
+        "answer": "to explain why wetlands are valuable",
+        "evidence": ""
+      },
+      {
+        "prompt": "Which detail shows wetlands help people?",
+        "choices": [
+          "They slow water and reduce flooding.",
+          "Birds nest in grasses.",
+          "Frogs lay eggs.",
+          "Insects buzz."
+        ],
+        "answer": "They slow water and reduce flooding.",
+        "evidence": ""
+      },
+      {
+        "prompt": "What does restore mean?",
+        "choices": [
+          "bring back or repair",
+          "cover with concrete",
+          "forget completely",
+          "measure quickly"
+        ],
+        "answer": "bring back or repair",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can identify purpose and supporting details."
+  },
+  {
+    "id": "g45_read_3",
+    "grade_band": "Grades 4-5",
+    "subject": "Reading",
+    "skill": "Point of view",
+    "title": "Two Views of the Storm",
+    "activity_type": "passage",
+    "passage": "Marcus saw the dark clouds as a problem because soccer practice was finally getting exciting. His sister Talia, helping the coach, noticed different clues: birds flying low, a flag snapping hard, and thunder behind the school. To Marcus, the storm was an interruption. To Talia, it was a warning.\n\nWhen the coach blew the whistle, Marcus wanted five more minutes. Talia guided younger players toward the gym. She remembered a storm that had flooded their apartment parking lot last spring. Marcus remembered only splashing afterward. As lightning flashed, Marcus finally understood why Talia had moved so quickly.\n\nLater, Marcus wrote that Talia had read the weather clues better than he had. The same event felt different because each person brought different experience to it.",
+    "questions": [
+      {
+        "prompt": "How does Marcus view the storm at first?",
+        "choices": [
+          "as an interruption",
+          "as a safety warning",
+          "as a science experiment",
+          "as a map lesson"
+        ],
+        "answer": "as an interruption",
+        "evidence": ""
+      },
+      {
+        "prompt": "How is Talia’s point of view different?",
+        "choices": [
+          "She focuses on safety clues.",
+          "She wants the game to continue.",
+          "She ignores the weather.",
+          "She dislikes the younger players."
+        ],
+        "answer": "She focuses on safety clues.",
+        "evidence": ""
+      },
+      {
+        "prompt": "Why does the author include last spring’s flood?",
+        "choices": [
+          "to show how past experience shapes Talia’s thinking",
+          "to explain that soccer is indoors",
+          "to describe a picnic",
+          "to prove Marcus was absent"
+        ],
+        "answer": "to show how past experience shapes Talia’s thinking",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can compare points of view."
+  },
+  {
+    "id": "g45_read_4",
+    "grade_band": "Grades 4-5",
+    "subject": "Reading",
+    "skill": "Text evidence and inference",
+    "title": "Plastic in the Food Chain",
+    "activity_type": "passage",
+    "passage": "Plastic is light, strong, and useful, but those qualities become problems when plastic is not disposed of correctly. A bottle dropped near a street drain can travel through streams and rivers. Over time, sunlight and waves can break plastic into tiny pieces called microplastics.\n\nSmall animals may mistake microplastics for food. Fish eat those animals, and larger predators eat the fish. In this way, pollution can move through a food chain even though plastic provides no nutrition.\n\nThe passage suggests that reducing pollution requires many actions. People can reduce waste, reuse items, recycle correctly, and support cleanup efforts. One person cannot clean an entire ocean, but one person can make choices that keep more plastic from reaching it.",
+    "questions": [
+      {
+        "prompt": "What inference is supported?",
+        "choices": [
+          "Trash dropped far from the ocean can still affect ocean animals.",
+          "Fish get nutrition from plastic.",
+          "Plastic disappears quickly in water.",
+          "Only boats create pollution."
+        ],
+        "answer": "Trash dropped far from the ocean can still affect ocean animals.",
+        "evidence": ""
+      },
+      {
+        "prompt": "Which evidence best supports that inference?",
+        "choices": [
+          "A bottle can travel through drains, streams, and rivers.",
+          "Plastic is useful because it is light.",
+          "Some people recycle correctly.",
+          "One person cannot clean an ocean."
+        ],
+        "answer": "A bottle can travel through drains, streams, and rivers.",
+        "evidence": ""
+      },
+      {
+        "prompt": "What is the author’s message?",
+        "choices": [
+          "Small choices can either add to or reduce a large problem.",
+          "All plastic should be used once.",
+          "Rivers never reach oceans.",
+          "Food chains include only plants."
+        ],
+        "answer": "Small choices can either add to or reduce a large problem.",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can make inferences with evidence."
+  },
+  {
+    "id": "g45_sci_1",
+    "grade_band": "Grades 4-5",
+    "subject": "Science Reading",
+    "skill": "Matter and mixtures",
+    "title": "Separating a Mystery Mixture",
+    "activity_type": "passage",
+    "passage": "A class mixed sand, iron filings, salt, and water. At first the cup looked like muddy soup. The students planned a separation method based on properties. A magnet could remove the iron filings because iron is attracted to magnets. A filter could catch the sand because sand does not dissolve in water. The salt was harder to see because it dissolved evenly. To recover it, students could let the water evaporate, leaving salt crystals behind. Scientists choose separation methods by studying properties such as magnetism, particle size, and solubility.",
+    "questions": [
+      {
+        "prompt": "Which property helps remove iron filings?",
+        "choices": [
+          "magnetism",
+          "sweetness",
+          "temperature only",
+          "color only"
+        ],
+        "answer": "magnetism",
+        "evidence": ""
+      },
+      {
+        "prompt": "Why does filtering remove sand but not salt?",
+        "choices": [
+          "Sand does not dissolve, but salt dissolves in water.",
+          "Salt is heavier than sand.",
+          "Water is magnetic.",
+          "Filters create crystals."
+        ],
+        "answer": "Sand does not dissolve, but salt dissolves in water.",
+        "evidence": ""
+      },
+      {
+        "prompt": "What is the main idea?",
+        "choices": [
+          "Properties help scientists separate mixtures.",
+          "Mixtures cannot be separated.",
+          "Salt is always visible.",
+          "Sand is magnetic."
+        ],
+        "answer": "Properties help scientists separate mixtures.",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can connect material properties to a separation method."
+  },
+  {
+    "id": "g45_sci_2",
+    "grade_band": "Grades 4-5",
+    "subject": "Science Reading",
+    "skill": "Ecosystems",
+    "title": "When Frogs Disappear",
+    "activity_type": "passage",
+    "passage": "In a meadow food web, grasses capture energy from sunlight. Insects feed on plants. Frogs eat many insects, while snakes and birds may eat frogs. If a disease reduces the frog population, the change does not stop with frogs. More insects may survive, which may lead to more plant damage. Animals that depend on frogs for food may struggle. Ecosystems are networks, so one population change can affect many others. Scientists collect data over time to understand these connections.",
+    "questions": [
+      {
+        "prompt": "What might happen if frogs decrease?",
+        "choices": [
+          "More insects may survive.",
+          "All plants immediately die.",
+          "Birds become grasses.",
+          "The sun stops shining."
+        ],
+        "answer": "More insects may survive.",
+        "evidence": ""
+      },
+      {
+        "prompt": "Why is a food web a network?",
+        "choices": [
+          "Many organisms are connected in feeding relationships.",
+          "Only one animal eats.",
+          "It is made of rope.",
+          "It has no plants."
+        ],
+        "answer": "Many organisms are connected in feeding relationships.",
+        "evidence": ""
+      },
+      {
+        "prompt": "Why do scientists collect data over time?",
+        "choices": [
+          "to understand patterns and effects",
+          "to avoid evidence",
+          "to count only rocks",
+          "to stop seasons"
+        ],
+        "answer": "to understand patterns and effects",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can explain how ecosystem changes spread."
+  },
+  {
+    "id": "g45_sci_3",
+    "grade_band": "Grades 4-5",
+    "subject": "Science Reading",
+    "skill": "Earth systems",
+    "title": "Glaciers Shaped Ohio",
+    "activity_type": "passage",
+    "passage": "Long ago, huge sheets of ice moved across parts of Ohio. These glaciers scraped rock, carried soil, and left behind layers of sediment when they melted. In some places, glaciers flattened land. In others, they left hills, ridges, and kettle lakes. Scientists study landforms and sediments to infer where glaciers once traveled. The surface of Ohio is a record of slow, powerful Earth processes.",
+    "questions": [
+      {
+        "prompt": "What did glaciers leave behind when they melted?",
+        "choices": [
+          "sediment",
+          "fresh paint",
+          "plastic bags",
+          "electric wires"
+        ],
+        "answer": "sediment",
+        "evidence": ""
+      },
+      {
+        "prompt": "What can scientists infer from landforms?",
+        "choices": [
+          "where glaciers once traveled",
+          "how to build computers",
+          "which animals can sing",
+          "what students ate"
+        ],
+        "answer": "where glaciers once traveled",
+        "evidence": ""
+      },
+      {
+        "prompt": "What is the passage mostly about?",
+        "choices": [
+          "how glaciers changed Ohio land",
+          "how to read a weather map",
+          "why volcanoes make lightning",
+          "how plants make seeds"
+        ],
+        "answer": "how glaciers changed Ohio land",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can use evidence to explain landform change."
+  },
+  {
+    "id": "g45_sci_4",
+    "grade_band": "Grades 4-5",
+    "subject": "Science Reading",
+    "skill": "Electricity",
+    "title": "Circuit Troubleshooting",
+    "activity_type": "passage",
+    "passage": "A flashlight circuit needs a complete path from the battery through the bulb and back to the battery. If a wire is loose, the path is open and the bulb will not light. A switch works by opening or closing that path. Conductors, such as metal, allow electric current to move easily. Insulators, such as rubber, slow or block current. Engineers use conductors and insulators together to make devices that work safely. When a circuit fails, testing one part at a time helps locate the problem.",
+    "questions": [
+      {
+        "prompt": "What does a circuit need to light a bulb?",
+        "choices": [
+          "a complete path",
+          "only rubber",
+          "a broken wire",
+          "no battery"
+        ],
+        "answer": "a complete path",
+        "evidence": ""
+      },
+      {
+        "prompt": "What does a switch do?",
+        "choices": [
+          "opens or closes the circuit path",
+          "turns metal into rubber",
+          "removes the battery",
+          "makes current disappear forever"
+        ],
+        "answer": "opens or closes the circuit path",
+        "evidence": ""
+      },
+      {
+        "prompt": "Why test one part at a time?",
+        "choices": [
+          "to find the problem carefully",
+          "to make random guesses",
+          "to use more batteries",
+          "to avoid evidence"
+        ],
+        "answer": "to find the problem carefully",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can explain circuits and troubleshooting."
+  },
+  {
+    "id": "g45_write_1",
+    "grade_band": "Grades 4-5",
+    "subject": "Writing",
+    "skill": "Opinion essay",
+    "title": "Should Schools Have a Weekly Design Lab?",
+    "activity_type": "writing",
+    "prompt": "Write an opinion essay arguing whether students should have a weekly design lab for building, testing, and improving ideas.",
+    "organizer": [
+      "Claim",
+      "Reason 1 with evidence",
+      "Reason 2 with evidence",
+      "Counterargument",
+      "Conclusion"
+    ],
+    "checklist": [
+      "My claim is clear.",
+      "I used evidence or examples.",
+      "I answered an opposing view.",
+      "My conclusion connects to the claim."
+    ]
+  },
+  {
+    "id": "g45_write_2",
+    "grade_band": "Grades 4-5",
+    "subject": "Writing",
+    "skill": "Informative writing",
+    "title": "How Wetlands Protect Communities",
+    "activity_type": "writing",
+    "prompt": "Write an informative article explaining how wetlands support wildlife, reduce flooding, and filter water.",
+    "organizer": [
+      "Introduction",
+      "Subtopic 1: wildlife",
+      "Subtopic 2: flooding",
+      "Subtopic 3: water quality",
+      "Conclusion"
+    ],
+    "checklist": [
+      "I organized information into subtopics.",
+      "I used precise science vocabulary.",
+      "I explained cause and effect."
+    ]
+  },
+  {
+    "id": "g45_write_3",
+    "grade_band": "Grades 4-5",
+    "subject": "Writing",
+    "skill": "Narrative craft",
+    "title": "The Failed Launch",
+    "activity_type": "writing",
+    "prompt": "Write a narrative about a team whose first design fails but leads to a better solution. Include dialogue and character growth.",
+    "organizer": [
+      "Setting",
+      "Problem",
+      "Dialogue",
+      "Revision action",
+      "Lesson learned"
+    ],
+    "checklist": [
+      "My characters respond to a problem.",
+      "I included dialogue.",
+      "The ending shows growth."
+    ]
+  },
+  {
+    "id": "g45_write_4",
+    "grade_band": "Grades 4-5",
+    "subject": "Writing",
+    "skill": "Evidence response",
+    "title": "Two Sources About Plastic Pollution",
+    "activity_type": "writing",
+    "prompt": "Use two source notes to write a response explaining how plastic pollution can move through waterways and food chains.",
+    "organizer": [
+      "Source 1 detail",
+      "Source 2 detail",
+      "Combined explanation",
+      "Evidence sentence",
+      "Closing"
+    ],
+    "checklist": [
+      "I combined information from two sources.",
+      "I used evidence, not just opinion.",
+      "I explained why the issue matters."
+    ]
+  },
+  {
+    "id": "g45_ss_1",
+    "grade_band": "Grades 4-5",
+    "subject": "Social Studies",
+    "skill": "Ohio geography",
+    "title": "Why Lake Erie Matters",
+    "activity_type": "passage",
+    "passage": "Lake Erie shapes life in northern Ohio. It provides drinking water, transportation routes, recreation, and habitat for fish and birds. However, because water from farms, cities, and streams can flow into the lake, pollution in one place can affect many communities. Citizens, scientists, and local governments monitor water quality and work to reduce runoff. A lake is not just a feature on a map; it is part of a region’s economy, environment, and daily life.",
+    "questions": [
+      {
+        "prompt": "Why does Lake Erie matter to communities?",
+        "choices": [
+          "It provides water, transportation, recreation, and habitat.",
+          "It is only a decoration on maps.",
+          "It prevents all storms.",
+          "It has no effect on people."
+        ],
+        "answer": "It provides water, transportation, recreation, and habitat.",
+        "evidence": ""
+      },
+      {
+        "prompt": "Why can pollution in one area affect others?",
+        "choices": [
+          "Water flows into the lake from many places.",
+          "Pollution cannot move.",
+          "Fish carry backpacks.",
+          "Maps make pollution vanish."
+        ],
+        "answer": "Water flows into the lake from many places.",
+        "evidence": ""
+      },
+      {
+        "prompt": "Which groups work on water quality?",
+        "choices": [
+          "citizens, scientists, and local governments",
+          "only actors",
+          "only bus drivers",
+          "only athletes"
+        ],
+        "answer": "citizens, scientists, and local governments",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can explain how geography affects communities."
+  },
+  {
+    "id": "g45_ss_2",
+    "grade_band": "Grades 4-5",
+    "subject": "Social Studies",
+    "skill": "Economics",
+    "title": "From Wheat to Bread",
+    "activity_type": "passage",
+    "passage": "Bread begins with natural resources such as soil, water, and wheat. Farmers use human resources, their labor and knowledge, to grow crops. They also use capital resources such as tractors, mills, ovens, and delivery trucks. At each stage, producers make choices about cost, quality, and demand. Trade connects farms, bakeries, stores, and families. Studying one loaf of bread shows how resources and markets work together.",
+    "questions": [
+      {
+        "prompt": "Which is a capital resource?",
+        "choices": [
+          "tractor",
+          "soil",
+          "water",
+          "farmer’s skill"
+        ],
+        "answer": "tractor",
+        "evidence": ""
+      },
+      {
+        "prompt": "Which is a natural resource?",
+        "choices": [
+          "wheat",
+          "delivery truck",
+          "oven",
+          "cash register"
+        ],
+        "answer": "wheat",
+        "evidence": ""
+      },
+      {
+        "prompt": "What does the bread example show?",
+        "choices": [
+          "Resources and markets are connected.",
+          "Bread appears without work.",
+          "Only one person makes every product.",
+          "Trade is unnecessary."
+        ],
+        "answer": "Resources and markets are connected.",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can classify resources and explain production."
+  },
+  {
+    "id": "g45_ss_3",
+    "grade_band": "Grades 4-5",
+    "subject": "Social Studies",
+    "skill": "Government",
+    "title": "A Park Bench Proposal",
+    "activity_type": "passage",
+    "passage": "Students wanted a new bench near the playground. Instead of complaining, they gathered evidence. They counted how many students waited near the area, surveyed classmates, and wrote a respectful proposal to the principal and city parks office. The adults explained budget limits and safety rules. The students revised their plan to include a donated bench and a maintenance schedule. Civic participation often means asking questions, using evidence, and working toward a realistic solution.",
+    "questions": [
+      {
+        "prompt": "What did students do before making a proposal?",
+        "choices": [
+          "gathered evidence",
+          "broke the old bench",
+          "ignored the rules",
+          "voted for lunch"
+        ],
+        "answer": "gathered evidence",
+        "evidence": ""
+      },
+      {
+        "prompt": "Why did they revise the plan?",
+        "choices": [
+          "to respond to budget and safety limits",
+          "to make it confusing",
+          "to remove all evidence",
+          "to stop helping"
+        ],
+        "answer": "to respond to budget and safety limits",
+        "evidence": ""
+      },
+      {
+        "prompt": "What is civic participation?",
+        "choices": [
+          "taking informed action to improve a community",
+          "winning every argument",
+          "letting adults decide everything",
+          "hiding problems"
+        ],
+        "answer": "taking informed action to improve a community",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can explain responsible civic participation."
+  },
+  {
+    "id": "g45_ss_4",
+    "grade_band": "Grades 4-5",
+    "subject": "Social Studies",
+    "skill": "Primary sources",
+    "title": "Reading a 1912 Letter",
+    "activity_type": "passage",
+    "passage": "A primary source is created during the time being studied. Imagine a 1912 letter from an Ohio child describing a new electric streetcar. The letter can show what the child noticed, how the ride felt, and what changed in daily life. However, it is only one person’s view. Historians compare letters, photographs, maps, and newspaper articles to build a fuller picture of the past.",
+    "questions": [
+      {
+        "prompt": "Why is the letter a primary source?",
+        "choices": [
+          "It was written during the time being studied.",
+          "It was written today about 1912.",
+          "It is printed in a textbook only.",
+          "It contains no viewpoint."
+        ],
+        "answer": "It was written during the time being studied.",
+        "evidence": ""
+      },
+      {
+        "prompt": "Why compare several sources?",
+        "choices": [
+          "One source gives only one perspective.",
+          "Primary sources are useless.",
+          "Maps cannot show places.",
+          "Photographs are never evidence."
+        ],
+        "answer": "One source gives only one perspective.",
+        "evidence": ""
+      },
+      {
+        "prompt": "What might the letter reveal?",
+        "choices": [
+          "how a child experienced the streetcar",
+          "every fact about Ohio",
+          "the future weather",
+          "all government laws"
+        ],
+        "answer": "how a child experienced the streetcar",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can evaluate a primary source."
+  },
+  {
+    "id": "g45_char_1",
+    "grade_band": "Grades 4-5",
+    "subject": "Character",
+    "skill": "Integrity",
+    "title": "The Scoreboard Mistake",
+    "activity_type": "scenario",
+    "prompt": "Your team receives points by mistake during a class game. No one notices except you. What shows integrity?",
+    "choices": [
+      "Tell the teacher about the mistake.",
+      "Stay quiet because your team benefits.",
+      "Blame another team.",
+      "Erase the scoreboard secretly."
+    ],
+    "answer": "Tell the teacher about the mistake."
+  },
+  {
+    "id": "g45_char_2",
+    "grade_band": "Grades 4-5",
+    "subject": "Character",
+    "skill": "Digital citizenship",
+    "title": "Group Chat Problem",
+    "activity_type": "scenario",
+    "prompt": "A class group chat starts making jokes about a student’s presentation mistake. What is the best response?",
+    "choices": [
+      "Ask them to stop and support the student.",
+      "Add more jokes.",
+      "Share screenshots for fun.",
+      "Pretend kindness does not matter online."
+    ],
+    "answer": "Ask them to stop and support the student."
+  },
+  {
+    "id": "g45_char_3",
+    "grade_band": "Grades 4-5",
+    "subject": "Character",
+    "skill": "Perseverance",
+    "title": "Revision Frustration",
+    "activity_type": "scenario",
+    "prompt": "Your essay draft gets many comments. What is the strongest next step?",
+    "choices": [
+      "Choose two comments to improve first.",
+      "Throw away the essay.",
+      "Ignore every comment.",
+      "Copy a friend’s work."
+    ],
+    "answer": "Choose two comments to improve first."
+  },
+  {
+    "id": "g45_char_4",
+    "grade_band": "Grades 4-5",
+    "subject": "Character",
+    "skill": "Leadership",
+    "title": "Quiet Team Member",
+    "activity_type": "scenario",
+    "prompt": "One teammate has not shared ideas during planning. What does a good leader do?",
+    "choices": [
+      "Invite them to share and listen carefully.",
+      "Take over the project.",
+      "Tell them their ideas are not needed.",
+      "Finish without the group."
+    ],
+    "answer": "Invite them to share and listen carefully."
+  },
+  {
+    "id": "g6_math_1",
+    "grade_band": "Grade 6",
+    "subject": "Math",
+    "skill": "Ratios and rates",
+    "title": "Solar Car Speed Trial",
+    "activity_type": "choice",
+    "prompt": "A solar car travels 18 meters in 3 seconds during Trial A and 35 meters in 5 seconds during Trial B. Which trial has the greater speed?",
+    "choices": [
+      "Trial B",
+      "Trial A",
+      "They are equal",
+      "Not enough information"
+    ],
+    "answer": "Trial B",
+    "visual": {
+      "type": "rate_table",
+      "rows": [
+        [
+          "A",
+          "18 m",
+          "3 s",
+          "6 m/s"
+        ],
+        [
+          "B",
+          "35 m",
+          "5 s",
+          "7 m/s"
+        ]
+      ]
+    },
+    "model_it": "Find unit rates: Trial A is 18 ÷ 3 = 6 m/s. Trial B is 35 ÷ 5 = 7 m/s."
+  },
+  {
+    "id": "g6_math_2",
+    "grade_band": "Grade 6",
+    "subject": "Math",
+    "skill": "Expressions and equations",
+    "title": "Museum Membership Equation",
+    "activity_type": "choice",
+    "prompt": "A museum charges $8 per visit or a $30 membership plus $3 per visit. After how many visits is the total cost the same?",
+    "choices": [
+      "6 visits",
+      "5 visits",
+      "4 visits",
+      "8 visits"
+    ],
+    "answer": "6 visits",
+    "visual": {
+      "type": "equation",
+      "text": "8v = 30 + 3v"
+    },
+    "model_it": "Set costs equal: 8v = 30 + 3v. Subtract 3v: 5v = 30. v = 6."
+  },
+  {
+    "id": "g6_math_3",
+    "grade_band": "Grade 6",
+    "subject": "Math",
+    "skill": "Statistics",
+    "title": "Which Center Fits?",
+    "activity_type": "choice",
+    "prompt": "Quiz scores are 72, 78, 80, 82, 83, 85, and 100. Which measure best represents a typical score if the high score is an outlier?",
+    "choices": [
+      "median",
+      "mean",
+      "range",
+      "maximum"
+    ],
+    "answer": "median",
+    "visual": {
+      "type": "dot_plot",
+      "values": [
+        72,
+        78,
+        80,
+        82,
+        83,
+        85,
+        100
+      ]
+    },
+    "model_it": "The outlier 100 pulls the mean upward. The median is more resistant."
+  },
+  {
+    "id": "g6_math_4",
+    "grade_band": "Grade 6",
+    "subject": "Math",
+    "skill": "Negative numbers",
+    "title": "Submarine Depth Change",
+    "activity_type": "choice",
+    "prompt": "A submarine is at -120 feet. It rises 45 feet, then dives 70 feet. What is its final depth?",
+    "choices": [
+      "-145 feet",
+      "-95 feet",
+      "-235 feet",
+      "-25 feet"
+    ],
+    "answer": "-145 feet",
+    "visual": {
+      "type": "number_line",
+      "points": [
+        -120,
+        -75,
+        -145
+      ]
+    },
+    "model_it": "Start at -120. Rising 45 gives -75. Diving 70 gives -145."
+  },
+  {
+    "id": "g6_read_1",
+    "grade_band": "Grade 6",
+    "subject": "Reading",
+    "skill": "Argument analysis",
+    "title": "Should Cities Darken the Night?",
+    "activity_type": "passage",
+    "passage": "Many cities are reconsidering how they light streets, parks, and buildings at night. Supporters of “dark sky” policies argue that shielded lights and lower brightness can reduce energy use, help migrating birds, and make stars easier to see. They do not suggest removing all lights. Instead, they propose directing light downward and using brightness only where safety requires it.\n\nOpponents worry that dimmer streets may feel less safe and that businesses depend on bright signs. They also argue that replacing fixtures costs money. Supporters respond that efficient lighting can save money over time and that careful design can protect safety while reducing waste.\n\nThe strongest arguments on both sides use evidence rather than emotion. A city deciding on a policy would need data about energy costs, accidents, wildlife, and public opinion.",
+    "questions": [
+      {
+        "prompt": "What is the author mostly explaining?",
+        "choices": [
+          "the debate over dark sky lighting policies",
+          "how to remove all city lights",
+          "why businesses should close at night",
+          "how stars are made"
+        ],
+        "answer": "the debate over dark sky lighting policies",
+        "evidence": ""
+      },
+      {
+        "prompt": "Which is a supporter’s claim?",
+        "choices": [
+          "Shielded lights can reduce energy use and help wildlife.",
+          "All streets should be dark.",
+          "Signs are never useful.",
+          "Safety does not matter."
+        ],
+        "answer": "Shielded lights can reduce energy use and help wildlife.",
+        "evidence": ""
+      },
+      {
+        "prompt": "What evidence would help a city decide?",
+        "choices": [
+          "data about energy, safety, wildlife, and public opinion",
+          "only one person’s fear",
+          "the color of the mayor’s office",
+          "a list of favorite planets"
+        ],
+        "answer": "data about energy, safety, wildlife, and public opinion",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can analyze claims and evidence."
+  },
+  {
+    "id": "g6_read_2",
+    "grade_band": "Grade 6",
+    "subject": "Reading",
+    "skill": "Theme across scenes",
+    "title": "The Clockmaker’s Apprentice",
+    "activity_type": "passage",
+    "passage": "Jonas wanted to repair the brass clock before the town exhibit opened. His first adjustment made the minute hand jump too quickly. His second made the bell ring at the wrong hour. Each mistake embarrassed him, especially because visitors could already see the display through the workshop window.\n\nMaster Elian did not take the tools away. Instead, he asked Jonas to record what each change had done. “A mistake that is measured becomes information,” he said. Jonas slowed down. He tested one gear at a time and wrote the result. By sunset, the clock ticked evenly.\n\nAt the exhibit, people praised the clock, but Jonas kept thinking about the notebook. The repair had taught him that patience was not waiting quietly; it was paying careful attention long enough to learn.",
+    "questions": [
+      {
+        "prompt": "Which theme is best supported?",
+        "choices": [
+          "Careful learning from mistakes can lead to mastery.",
+          "Mistakes should be hidden.",
+          "Speed matters more than accuracy.",
+          "Tools are more important than thinking."
+        ],
+        "answer": "Careful learning from mistakes can lead to mastery.",
+        "evidence": ""
+      },
+      {
+        "prompt": "What does Master Elian teach Jonas?",
+        "choices": [
+          "Record mistakes as information.",
+          "Stop repairing clocks.",
+          "Work faster.",
+          "Avoid notebooks."
+        ],
+        "answer": "Record mistakes as information.",
+        "evidence": ""
+      },
+      {
+        "prompt": "What does Jonas realize about patience?",
+        "choices": [
+          "It means paying careful attention long enough to learn.",
+          "It means doing nothing.",
+          "It means winning praise.",
+          "It means avoiding hard tasks."
+        ],
+        "answer": "It means paying careful attention long enough to learn.",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can explain theme development."
+  },
+  {
+    "id": "g6_read_3",
+    "grade_band": "Grade 6",
+    "subject": "Reading",
+    "skill": "Compare sources",
+    "title": "Two Views on School Gardens",
+    "activity_type": "passage",
+    "passage": "Source A argues that school gardens improve science learning because students observe soil, insects, weather, and plant growth directly. It cites a class that used garden data to graph rainfall and plant height.\n\nSource B argues that gardens build community because families, teachers, and students work together. It describes weekend planting days and donations from local businesses.\n\nBoth sources support school gardens, but they emphasize different benefits. A strong response should explain where the sources agree and how their evidence differs.",
+    "questions": [
+      {
+        "prompt": "Where do the sources agree?",
+        "choices": [
+          "School gardens are beneficial.",
+          "Gardens should be removed.",
+          "Only science teachers use gardens.",
+          "Families should not help."
+        ],
+        "answer": "School gardens are beneficial.",
+        "evidence": ""
+      },
+      {
+        "prompt": "How does Source A differ from Source B?",
+        "choices": [
+          "A emphasizes science learning; B emphasizes community.",
+          "A is about sports; B is about music.",
+          "A opposes gardens; B supports them.",
+          "A gives no evidence."
+        ],
+        "answer": "A emphasizes science learning; B emphasizes community.",
+        "evidence": ""
+      },
+      {
+        "prompt": "Which evidence belongs to Source A?",
+        "choices": [
+          "students graph rainfall and plant height",
+          "local businesses donate supplies",
+          "families meet on weekends",
+          "students paint signs"
+        ],
+        "answer": "students graph rainfall and plant height",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can compare how sources support ideas."
+  },
+  {
+    "id": "g6_read_4",
+    "grade_band": "Grade 6",
+    "subject": "Reading",
+    "skill": "Vocabulary in context",
+    "title": "The Unseen Network",
+    "activity_type": "passage",
+    "passage": "Under a forest floor, fungi can connect with tree roots in a wide underground network. Through these connections, trees may exchange nutrients and chemical signals. Scientists are careful not to describe the network as magical or perfectly generous. The relationships are complex: fungi also take sugars from trees, and not every exchange helps every plant equally. Still, the network changes how researchers understand forests. A forest is not only a group of individual trees; it is a system of interactions.",
+    "questions": [
+      {
+        "prompt": "What does complex mean in the passage?",
+        "choices": [
+          "having many connected parts",
+          "simple and empty",
+          "fake or imaginary",
+          "quick to disappear"
+        ],
+        "answer": "having many connected parts",
+        "evidence": ""
+      },
+      {
+        "prompt": "Why does the author warn against calling the network magical?",
+        "choices": [
+          "The relationships are scientific and not always equally helpful.",
+          "Fungi are not real.",
+          "Trees cannot grow roots.",
+          "Scientists dislike forests."
+        ],
+        "answer": "The relationships are scientific and not always equally helpful.",
+        "evidence": ""
+      },
+      {
+        "prompt": "What idea does the passage emphasize?",
+        "choices": [
+          "A forest is a system of interactions.",
+          "Trees live completely alone.",
+          "Fungi only harm trees.",
+          "Signals are always visible."
+        ],
+        "answer": "A forest is a system of interactions.",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can use context to understand vocabulary and ideas."
+  },
+  {
+    "id": "g6_sci_1",
+    "grade_band": "Grade 6",
+    "subject": "Science Reading",
+    "skill": "Energy transfer",
+    "title": "Why the Metal Spoon Feels Cold",
+    "activity_type": "passage",
+    "passage": "A metal spoon and a wooden spoon may sit in the same room at the same temperature, but the metal spoon often feels colder. That feeling happens because metal transfers thermal energy away from your hand faster than wood does. Your skin senses the quick energy loss as cold. Materials that transfer energy easily are conductors. Materials that transfer energy slowly are insulators. Engineers choose materials based on how quickly energy should move through them.",
+    "questions": [
+      {
+        "prompt": "Why does metal feel colder than wood at the same temperature?",
+        "choices": [
+          "It transfers thermal energy from your hand faster.",
+          "It is always actually colder.",
+          "It creates ice.",
+          "It has no particles."
+        ],
+        "answer": "It transfers thermal energy from your hand faster.",
+        "evidence": ""
+      },
+      {
+        "prompt": "What is a conductor?",
+        "choices": [
+          "a material that transfers energy easily",
+          "a material that blocks all light",
+          "a tool for measuring time",
+          "a type of plant"
+        ],
+        "answer": "a material that transfers energy easily",
+        "evidence": ""
+      },
+      {
+        "prompt": "Why do engineers choose materials carefully?",
+        "choices": [
+          "Different materials transfer energy at different rates.",
+          "All materials behave the same.",
+          "Insulators are never useful.",
+          "Metals cannot be used safely."
+        ],
+        "answer": "Different materials transfer energy at different rates.",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can explain thermal energy transfer."
+  },
+  {
+    "id": "g6_sci_2",
+    "grade_band": "Grade 6",
+    "subject": "Science Reading",
+    "skill": "Cells and systems",
+    "title": "Cells Working Together",
+    "activity_type": "passage",
+    "passage": "A single muscle cell can contract, but it cannot move an arm by itself. Many muscle cells form tissue. Tissues work with nerves, blood vessels, bones, and tendons as part of an organ system. The body depends on organization: cells make tissues, tissues help form organs, and organs work in systems. When one system changes, others may be affected. During exercise, muscles need more oxygen, so breathing and heart rate increase.",
+    "questions": [
+      {
+        "prompt": "What is the order of organization?",
+        "choices": [
+          "cells → tissues → organs → systems",
+          "systems → cells → organs → tissues",
+          "organs → cells → systems → tissues",
+          "tissues → systems → cells → organs"
+        ],
+        "answer": "cells → tissues → organs → systems",
+        "evidence": ""
+      },
+      {
+        "prompt": "Why do heart rate and breathing increase during exercise?",
+        "choices": [
+          "Muscles need more oxygen.",
+          "Bones disappear.",
+          "Cells stop using energy.",
+          "Tendons become organs."
+        ],
+        "answer": "Muscles need more oxygen.",
+        "evidence": ""
+      },
+      {
+        "prompt": "What is the main idea?",
+        "choices": [
+          "Body systems work together.",
+          "One cell moves an arm alone.",
+          "Exercise stops oxygen use.",
+          "Tissues are not living."
+        ],
+        "answer": "Body systems work together.",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can explain levels of organization in living systems."
+  },
+  {
+    "id": "g6_sci_3",
+    "grade_band": "Grade 6",
+    "subject": "Science Reading",
+    "skill": "Earth systems",
+    "title": "A River Changes Its Banks",
+    "activity_type": "passage",
+    "passage": "After heavy rain, a river may run faster and carry more sediment. Fast-moving water can erode soil from the outside of a bend. When the water slows, it may deposit sediment on the inside of a bend or farther downstream. Over many years, these processes can change the shape of a river channel. Human choices, such as removing plants near banks, can increase erosion because roots help hold soil in place.",
+    "questions": [
+      {
+        "prompt": "Where can erosion be strongest in a bend?",
+        "choices": [
+          "outside of the bend",
+          "inside of the classroom",
+          "on the moon",
+          "in a closed jar"
+        ],
+        "answer": "outside of the bend",
+        "evidence": ""
+      },
+      {
+        "prompt": "What happens when water slows?",
+        "choices": [
+          "sediment may be deposited",
+          "rocks turn into birds",
+          "roots vanish",
+          "rain stops forever"
+        ],
+        "answer": "sediment may be deposited",
+        "evidence": ""
+      },
+      {
+        "prompt": "Why do plants help riverbanks?",
+        "choices": [
+          "Roots hold soil in place.",
+          "Leaves make water heavier.",
+          "Flowers stop gravity.",
+          "Seeds become fish."
+        ],
+        "answer": "Roots hold soil in place.",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can explain erosion and deposition."
+  },
+  {
+    "id": "g6_sci_4",
+    "grade_band": "Grade 6",
+    "subject": "Science Reading",
+    "skill": "Scientific modeling",
+    "title": "Models of the Solar System",
+    "activity_type": "passage",
+    "passage": "A model of the solar system can show the order of planets and the idea that planets orbit the sun. However, most classroom models cannot show true distances and sizes at the same time. If Earth were the size of a peppercorn, the distances between planets would be much larger than a poster can show. Models are useful because they highlight certain features, but they also have limits. Scientists choose or build models based on the question they are trying to answer.",
+    "questions": [
+      {
+        "prompt": "What is one limit of many classroom solar system models?",
+        "choices": [
+          "They cannot show true sizes and distances at the same time.",
+          "They cannot show order.",
+          "They prove planets do not orbit.",
+          "They are never useful."
+        ],
+        "answer": "They cannot show true sizes and distances at the same time.",
+        "evidence": ""
+      },
+      {
+        "prompt": "Why are models useful?",
+        "choices": [
+          "They highlight features of a system.",
+          "They are always perfect copies.",
+          "They replace all evidence.",
+          "They make planets smaller in space."
+        ],
+        "answer": "They highlight features of a system.",
+        "evidence": ""
+      },
+      {
+        "prompt": "How should scientists choose a model?",
+        "choices": [
+          "based on the question they are trying to answer",
+          "based only on color",
+          "by choosing the biggest poster",
+          "by avoiding limits"
+        ],
+        "answer": "based on the question they are trying to answer",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can evaluate scientific models."
+  },
+  {
+    "id": "g6_write_1",
+    "grade_band": "Grade 6",
+    "subject": "Writing",
+    "skill": "Argument writing",
+    "title": "Should Cities Adopt Dark-Sky Lighting?",
+    "activity_type": "writing",
+    "prompt": "Write an argument using claims, evidence, reasoning, and a response to a counterclaim.",
+    "organizer": [
+      "Claim",
+      "Evidence 1",
+      "Evidence 2",
+      "Counterclaim",
+      "Rebuttal",
+      "Conclusion"
+    ],
+    "checklist": [
+      "My claim is debatable and precise.",
+      "Each reason has evidence.",
+      "I explain how evidence supports my claim.",
+      "I address a counterclaim fairly."
+    ]
+  },
+  {
+    "id": "g6_write_2",
+    "grade_band": "Grade 6",
+    "subject": "Writing",
+    "skill": "Informative synthesis",
+    "title": "How River Systems Change Land",
+    "activity_type": "writing",
+    "prompt": "Write an informative explanation of erosion, deposition, sediment, and how human choices affect riverbanks.",
+    "organizer": [
+      "Introduction",
+      "Process explanation",
+      "Human impact",
+      "Evidence example",
+      "Conclusion"
+    ],
+    "checklist": [
+      "I use domain vocabulary accurately.",
+      "I explain cause and effect.",
+      "I include a clear example."
+    ]
+  },
+  {
+    "id": "g6_write_3",
+    "grade_band": "Grade 6",
+    "subject": "Writing",
+    "skill": "Literary analysis",
+    "title": "Analyze Jonas’s Growth",
+    "activity_type": "writing",
+    "prompt": "Write a literary analysis paragraph explaining how Jonas changes in “The Clockmaker’s Apprentice.” Use two pieces of text evidence.",
+    "organizer": [
+      "Topic sentence",
+      "Evidence 1",
+      "Explanation 1",
+      "Evidence 2",
+      "Explanation 2",
+      "Closing"
+    ],
+    "checklist": [
+      "I make an interpretation, not just a summary.",
+      "I quote or paraphrase evidence.",
+      "I explain the evidence."
+    ]
+  },
+  {
+    "id": "g6_write_4",
+    "grade_band": "Grade 6",
+    "subject": "Writing",
+    "skill": "Research response",
+    "title": "Two Sources, One Position",
+    "activity_type": "writing",
+    "prompt": "Use two source notes about school gardens to write a balanced response that compares benefits and recommends one action.",
+    "organizer": [
+      "Source A idea",
+      "Source B idea",
+      "Comparison",
+      "Recommendation",
+      "Reasoning"
+    ],
+    "checklist": [
+      "I compare sources accurately.",
+      "I use both sources.",
+      "My recommendation follows from evidence."
+    ]
+  },
+  {
+    "id": "g6_ss_1",
+    "grade_band": "Grade 6",
+    "subject": "Social Studies",
+    "skill": "Ancient civilizations",
+    "title": "Why Rivers Supported Early Civilizations",
+    "activity_type": "passage",
+    "passage": "Many early civilizations developed near rivers because rivers provided water, fertile soil, transportation, and food sources. The Nile, Tigris-Euphrates, Indus, and Huang He river valleys supported farming communities that could produce food surpluses. Surpluses allowed some people to specialize as builders, scribes, merchants, or leaders. Rivers also created challenges, including floods and conflicts over land and water. Geography did not determine everything, but it shaped the choices people made.",
+    "questions": [
+      {
+        "prompt": "Why did rivers support farming?",
+        "choices": [
+          "They provided water and fertile soil.",
+          "They stopped all floods.",
+          "They made writing unnecessary.",
+          "They removed all conflict."
+        ],
+        "answer": "They provided water and fertile soil.",
+        "evidence": ""
+      },
+      {
+        "prompt": "What did food surpluses allow?",
+        "choices": [
+          "job specialization",
+          "the end of trade",
+          "fewer communities",
+          "no leadership"
+        ],
+        "answer": "job specialization",
+        "evidence": ""
+      },
+      {
+        "prompt": "What is the best summary?",
+        "choices": [
+          "River geography created opportunities and challenges for early civilizations.",
+          "Civilizations avoided rivers.",
+          "Rivers made all choices for people.",
+          "Farming did not need water."
+        ],
+        "answer": "River geography created opportunities and challenges for early civilizations.",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can explain how geography influenced civilizations."
+  },
+  {
+    "id": "g6_ss_2",
+    "grade_band": "Grade 6",
+    "subject": "Social Studies",
+    "skill": "Government systems",
+    "title": "Direct and Representative Democracy",
+    "activity_type": "passage",
+    "passage": "In a direct democracy, citizens vote on laws or decisions themselves. In a representative democracy, citizens elect people to make decisions for them. Direct democracy can give citizens a strong voice, but it can be difficult when a population is large. Representative democracy can be more practical for large communities, but voters must stay informed and hold leaders accountable. Both systems connect to the question of how people participate in government.",
+    "questions": [
+      {
+        "prompt": "What happens in a representative democracy?",
+        "choices": [
+          "Citizens elect people to make decisions.",
+          "No one participates.",
+          "Only judges vote.",
+          "Every citizen writes every law directly."
+        ],
+        "answer": "Citizens elect people to make decisions.",
+        "evidence": ""
+      },
+      {
+        "prompt": "Why can direct democracy be difficult for large populations?",
+        "choices": [
+          "It is hard for everyone to vote on every decision.",
+          "Citizens have too little voice.",
+          "It has no laws.",
+          "Representatives are required."
+        ],
+        "answer": "It is hard for everyone to vote on every decision.",
+        "evidence": ""
+      },
+      {
+        "prompt": "What do both systems involve?",
+        "choices": [
+          "citizen participation",
+          "no government",
+          "only kings",
+          "no decisions"
+        ],
+        "answer": "citizen participation",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can compare forms of democracy."
+  },
+  {
+    "id": "g6_ss_3",
+    "grade_band": "Grade 6",
+    "subject": "Social Studies",
+    "skill": "Economics and trade",
+    "title": "Specialization and Trade",
+    "activity_type": "passage",
+    "passage": "A region with rich farmland may specialize in growing grain. Another region with forests may specialize in timber. Specialization can make production more efficient, but regions then depend on trade to get goods they do not produce themselves. Trade networks connect people, spread ideas, and sometimes create conflict over prices, resources, or control of routes. Economic decisions are connected to geography, technology, and human wants.",
+    "questions": [
+      {
+        "prompt": "Why do regions trade?",
+        "choices": [
+          "to get goods they do not produce themselves",
+          "to stop all specialization",
+          "to avoid resources",
+          "to make geography disappear"
+        ],
+        "answer": "to get goods they do not produce themselves",
+        "evidence": ""
+      },
+      {
+        "prompt": "What is one possible benefit of specialization?",
+        "choices": [
+          "efficient production",
+          "no need for trade",
+          "no need for workers",
+          "less knowledge"
+        ],
+        "answer": "efficient production",
+        "evidence": ""
+      },
+      {
+        "prompt": "What can trade networks spread?",
+        "choices": [
+          "goods and ideas",
+          "only rain",
+          "nothing useful",
+          "gravity"
+        ],
+        "answer": "goods and ideas",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can explain specialization and trade."
+  },
+  {
+    "id": "g6_ss_4",
+    "grade_band": "Grade 6",
+    "subject": "Social Studies",
+    "skill": "Historical evidence",
+    "title": "Artifacts as Evidence",
+    "activity_type": "passage",
+    "passage": "An artifact is an object made or used by people in the past. A clay tablet, tool, coin, or piece of pottery can provide clues about technology, trade, beliefs, or daily life. Artifacts do not explain themselves. Historians and archaeologists ask where the object was found, what materials it uses, who might have used it, and what other evidence supports an interpretation. A single artifact can suggest possibilities, but stronger conclusions require multiple pieces of evidence.",
+    "questions": [
+      {
+        "prompt": "What is an artifact?",
+        "choices": [
+          "an object made or used by people in the past",
+          "a weather pattern",
+          "a modern opinion only",
+          "a type of cloud"
+        ],
+        "answer": "an object made or used by people in the past",
+        "evidence": ""
+      },
+      {
+        "prompt": "Why ask where an artifact was found?",
+        "choices": [
+          "Context helps interpret its meaning.",
+          "Location never matters.",
+          "It proves the artifact is fake.",
+          "It tells the future."
+        ],
+        "answer": "Context helps interpret its meaning.",
+        "evidence": ""
+      },
+      {
+        "prompt": "Why use multiple pieces of evidence?",
+        "choices": [
+          "to support stronger conclusions",
+          "to make history simpler than it is",
+          "to avoid interpretation",
+          "to ignore context"
+        ],
+        "answer": "to support stronger conclusions",
+        "evidence": ""
+      }
+    ],
+    "learning_target": "I can evaluate artifacts as historical evidence."
+  },
+  {
+    "id": "g6_char_1",
+    "grade_band": "Grade 6",
+    "subject": "Character",
+    "skill": "Academic integrity",
+    "title": "AI Homework Decision",
+    "activity_type": "scenario",
+    "prompt": "A tool gives you a complete answer to copy for homework. What shows academic integrity?",
+    "choices": [
+      "Use it to understand ideas, then write your own response and cite help if required.",
+      "Copy it exactly.",
+      "Submit it under a friend’s name.",
+      "Delete the assignment."
+    ],
+    "answer": "Use it to understand ideas, then write your own response and cite help if required."
+  },
+  {
+    "id": "g6_char_2",
+    "grade_band": "Grade 6",
+    "subject": "Character",
+    "skill": "Conflict resolution",
+    "title": "Lab Partner Conflict",
+    "activity_type": "scenario",
+    "prompt": "Your lab partner keeps changing the plan without asking. What is the most mature response?",
+    "choices": [
+      "Calmly explain the problem and agree on roles.",
+      "Sabotage the lab.",
+      "Tell everyone they are terrible.",
+      "Refuse to speak forever."
+    ],
+    "answer": "Calmly explain the problem and agree on roles."
+  },
+  {
+    "id": "g6_char_3",
+    "grade_band": "Grade 6",
+    "subject": "Character",
+    "skill": "Resilience",
+    "title": "Low Quiz Score",
+    "activity_type": "scenario",
+    "prompt": "You studied but earned a low quiz score. What is the best next step?",
+    "choices": [
+      "Review errors, ask for help, and plan targeted practice.",
+      "Decide you cannot learn math.",
+      "Hide the quiz.",
+      "Blame the pencil."
+    ],
+    "answer": "Review errors, ask for help, and plan targeted practice."
+  },
+  {
+    "id": "g6_char_4",
+    "grade_band": "Grade 6",
+    "subject": "Character",
+    "skill": "Responsible leadership",
+    "title": "Group Deadline",
+    "activity_type": "scenario",
+    "prompt": "Your group is behind on a project. What should a responsible leader do first?",
+    "choices": [
+      "Clarify tasks, set mini-deadlines, and check what help people need.",
+      "Do all the work secretly.",
+      "Yell at the group.",
+      "Cancel the project."
+    ],
+    "answer": "Clarify tasks, set mini-deadlines, and check what help people need."
+  }
+]

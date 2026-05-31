@@ -1,0 +1,93 @@
+id,grade_band,subject,skill,title,activity_type,learning_target
+k_math_1,Kindergarten,Math,Counting and cardinality,Count the Fireflies,choice,I can count objects one by one.
+k_math_2,Kindergarten,Math,Compare numbers,Which Jar Has More?,choice,I can compare groups by counting.
+k_math_3,Kindergarten,Math,Shapes,Shape Detective,choice,I can name simple shapes.
+k_math_4,Kindergarten,Math,Add within 5,Pond Friends,choice,I can put groups together and count all.
+k_read_1,Kindergarten,Reading,Letter sounds,Beginning Sound Garden,passage,I can hear the first sound in a word.
+k_read_2,Kindergarten,Reading,Sight words,I See It,passage,I can read a simple sentence.
+k_read_3,Kindergarten,Reading,Story sequence,"First, Next, Last",passage,I can tell what happens first and last.
+k_read_4,Kindergarten,Reading,Picture clues,Find the Detail,passage,I can use details to answer questions.
+k_sci_1,Kindergarten,Science Reading,Living and nonliving,Is It Living?,passage,I can tell living and nonliving things apart.
+k_sci_2,Kindergarten,Science Reading,Weather,Weather Watch,passage,I can observe weather.
+k_sci_3,Kindergarten,Science Reading,Plant needs,The Bean Seed,passage,I can name what plants need.
+k_sci_4,Kindergarten,Science Reading,Push and pull,The Wagon,passage,I can describe pushes and pulls.
+k_ss_1,Kindergarten,Social Studies,Community helpers,Helper Hats,passage,I can name community helpers.
+k_ss_2,Kindergarten,Social Studies,Rules,Safe Classroom Rules,passage,I can explain why rules help.
+k_ss_3,Kindergarten,Social Studies,Maps,Map of the Room,passage,I can use a simple map clue.
+k_ss_4,Kindergarten,Social Studies,Needs and wants,Need or Want?,passage,I can tell needs and wants apart.
+k_char_1,Kindergarten,Character,Kindness,The Crayon Choice,scenario,I can choose a kind action.
+k_char_2,Kindergarten,Character,Honesty,The Broken Block Tower,scenario,
+k_char_3,Kindergarten,Character,Patience,Waiting for a Turn,scenario,
+k_char_4,Kindergarten,Character,Responsibility,Clean-Up Bell,scenario,
+g23_math_1,Grades 2-3,Math,Multi-step addition,Market Math Mystery,choice,
+g23_math_2,Grades 2-3,Math,Fractions as equal parts,Garden Flag Fractions,choice,
+g23_math_3,Grades 2-3,Math,Area arrays,Tile Patio Challenge,choice,
+g23_math_4,Grades 2-3,Math,Data and comparison,Rain Gauge Data,choice,
+g23_read_1,Grades 2-3,Reading,Character traits,The Library Helper,passage,I can describe a character using evidence.
+g23_read_2,Grades 2-3,Reading,Main idea,Why Bees Visit Flowers,passage,I can find the main idea and key details.
+g23_read_3,Grades 2-3,Reading,Inference,The Missing Mittens,passage,I can use clues to make an inference.
+g23_read_4,Grades 2-3,Reading,Compare texts,Two Ways to Help a Park,passage,I can compare ideas in two short texts.
+g23_sci_1,Grades 2-3,Science Reading,Life cycles,From Egg to Dragonfly,passage,I can explain a life cycle.
+g23_sci_2,Grades 2-3,Science Reading,Habitats,Desert Survival,passage,I can connect traits to a habitat.
+g23_sci_3,Grades 2-3,Science Reading,Matter,Solids and Liquids Lab,passage,I can compare solids and liquids.
+g23_sci_4,Grades 2-3,Science Reading,Earth materials,Rocks Tell Clues,passage,I can use properties to describe rocks.
+g23_write_1,Grades 2-3,Writing,Opinion paragraph,Best Recess Game,writing,
+g23_write_2,Grades 2-3,Writing,Informative paragraph,How to Care for a Class Plant,writing,
+g23_write_3,Grades 2-3,Writing,Narrative,The Surprise Sound,writing,
+g23_write_4,Grades 2-3,Writing,Friendly letter,Letter to a Community Helper,writing,
+g23_ss_1,Grades 2-3,Social Studies,Maps and symbols,Map Symbols at the Zoo,passage,I can use map symbols.
+g23_ss_2,Grades 2-3,Social Studies,Goods and services,Bakery Choices,passage,I can tell goods and services apart.
+g23_ss_3,Grades 2-3,Social Studies,Past and present,Schools Then and Now,passage,I can compare past and present.
+g23_ss_4,Grades 2-3,Social Studies,Citizenship,The Playground Vote,passage,I can explain fair decision-making.
+g23_char_1,Grades 2-3,Character,Growth mindset,The Hard Puzzle,scenario,
+g23_char_2,Grades 2-3,Character,Respect,Team Project Voices,scenario,
+g23_char_3,Grades 2-3,Character,Responsibility,Forgotten Homework Folder,scenario,
+g23_char_4,Grades 2-3,Character,Empathy,Lunch Table Choice,scenario,
+g45_math_1,Grades 4-5,Math,Fractions and measurement,Trail-Mix Scaling Challenge,choice,
+g45_math_2,Grades 4-5,Math,Volume and constraints,Aquarium Design,choice,
+g45_math_3,Grades 4-5,Math,Line plots with fractions,Seedling Growth Investigation,choice,
+g45_math_4,Grades 4-5,Math,Coordinate geometry,Park Map Perimeter,choice,
+g45_read_1,Grades 4-5,Reading,Theme and evidence,The Last Lantern,passage,I can explain theme using evidence.
+g45_read_2,Grades 4-5,Reading,Author purpose,Why Wetlands Matter,passage,I can identify purpose and supporting details.
+g45_read_3,Grades 4-5,Reading,Point of view,Two Views of the Storm,passage,I can compare points of view.
+g45_read_4,Grades 4-5,Reading,Text evidence and inference,Plastic in the Food Chain,passage,I can make inferences with evidence.
+g45_sci_1,Grades 4-5,Science Reading,Matter and mixtures,Separating a Mystery Mixture,passage,I can connect material properties to a separation method.
+g45_sci_2,Grades 4-5,Science Reading,Ecosystems,When Frogs Disappear,passage,I can explain how ecosystem changes spread.
+g45_sci_3,Grades 4-5,Science Reading,Earth systems,Glaciers Shaped Ohio,passage,I can use evidence to explain landform change.
+g45_sci_4,Grades 4-5,Science Reading,Electricity,Circuit Troubleshooting,passage,I can explain circuits and troubleshooting.
+g45_write_1,Grades 4-5,Writing,Opinion essay,Should Schools Have a Weekly Design Lab?,writing,
+g45_write_2,Grades 4-5,Writing,Informative writing,How Wetlands Protect Communities,writing,
+g45_write_3,Grades 4-5,Writing,Narrative craft,The Failed Launch,writing,
+g45_write_4,Grades 4-5,Writing,Evidence response,Two Sources About Plastic Pollution,writing,
+g45_ss_1,Grades 4-5,Social Studies,Ohio geography,Why Lake Erie Matters,passage,I can explain how geography affects communities.
+g45_ss_2,Grades 4-5,Social Studies,Economics,From Wheat to Bread,passage,I can classify resources and explain production.
+g45_ss_3,Grades 4-5,Social Studies,Government,A Park Bench Proposal,passage,I can explain responsible civic participation.
+g45_ss_4,Grades 4-5,Social Studies,Primary sources,Reading a 1912 Letter,passage,I can evaluate a primary source.
+g45_char_1,Grades 4-5,Character,Integrity,The Scoreboard Mistake,scenario,
+g45_char_2,Grades 4-5,Character,Digital citizenship,Group Chat Problem,scenario,
+g45_char_3,Grades 4-5,Character,Perseverance,Revision Frustration,scenario,
+g45_char_4,Grades 4-5,Character,Leadership,Quiet Team Member,scenario,
+g6_math_1,Grade 6,Math,Ratios and rates,Solar Car Speed Trial,choice,
+g6_math_2,Grade 6,Math,Expressions and equations,Museum Membership Equation,choice,
+g6_math_3,Grade 6,Math,Statistics,Which Center Fits?,choice,
+g6_math_4,Grade 6,Math,Negative numbers,Submarine Depth Change,choice,
+g6_read_1,Grade 6,Reading,Argument analysis,Should Cities Darken the Night?,passage,I can analyze claims and evidence.
+g6_read_2,Grade 6,Reading,Theme across scenes,The Clockmaker’s Apprentice,passage,I can explain theme development.
+g6_read_3,Grade 6,Reading,Compare sources,Two Views on School Gardens,passage,I can compare how sources support ideas.
+g6_read_4,Grade 6,Reading,Vocabulary in context,The Unseen Network,passage,I can use context to understand vocabulary and ideas.
+g6_sci_1,Grade 6,Science Reading,Energy transfer,Why the Metal Spoon Feels Cold,passage,I can explain thermal energy transfer.
+g6_sci_2,Grade 6,Science Reading,Cells and systems,Cells Working Together,passage,I can explain levels of organization in living systems.
+g6_sci_3,Grade 6,Science Reading,Earth systems,A River Changes Its Banks,passage,I can explain erosion and deposition.
+g6_sci_4,Grade 6,Science Reading,Scientific modeling,Models of the Solar System,passage,I can evaluate scientific models.
+g6_write_1,Grade 6,Writing,Argument writing,Should Cities Adopt Dark-Sky Lighting?,writing,
+g6_write_2,Grade 6,Writing,Informative synthesis,How River Systems Change Land,writing,
+g6_write_3,Grade 6,Writing,Literary analysis,Analyze Jonas’s Growth,writing,
+g6_write_4,Grade 6,Writing,Research response,"Two Sources, One Position",writing,
+g6_ss_1,Grade 6,Social Studies,Ancient civilizations,Why Rivers Supported Early Civilizations,passage,I can explain how geography influenced civilizations.
+g6_ss_2,Grade 6,Social Studies,Government systems,Direct and Representative Democracy,passage,I can compare forms of democracy.
+g6_ss_3,Grade 6,Social Studies,Economics and trade,Specialization and Trade,passage,I can explain specialization and trade.
+g6_ss_4,Grade 6,Social Studies,Historical evidence,Artifacts as Evidence,passage,I can evaluate artifacts as historical evidence.
+g6_char_1,Grade 6,Character,Academic integrity,AI Homework Decision,scenario,
+g6_char_2,Grade 6,Character,Conflict resolution,Lab Partner Conflict,scenario,
+g6_char_3,Grade 6,Character,Resilience,Low Quiz Score,scenario,
+g6_char_4,Grade 6,Character,Responsible leadership,Group Deadline,scenario,
